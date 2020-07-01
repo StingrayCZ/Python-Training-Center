@@ -88,3 +88,10 @@ print(ceil(3.2))      # Horni uroven
 print(round(sqrt(36)))
 
 ```
+
+
+## Uživatelský vstup
+```Py
+name  = input("Enter your name: ")   # aktivace vstupu
+print("Hello " + name + "!")
+```
