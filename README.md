@@ -32,4 +32,8 @@ print("but he didn't like being " + character_age)
 print("Giraffe\"Academy")
 ```
 
-## 23y32uy
+## Zmeření počtu prvků v řetezci
+```Py
+phrase = "GiraffeAcademy "
+print(len(phrase))
+```
