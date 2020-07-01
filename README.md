@@ -55,3 +55,21 @@ print(phrase.index("Acad"))
 phrase = "Giraffe Academy "
 print(phrase.replace("Giraffe","Elephant"))
 ```
+
+## Math function
+```Py
+
+cislo = 2
+mocnitel = 12
+
+print(pow(cislo,mocnitel))
+print(13 % 5)
+```
+
+## Změna cisla na string (řetězec)
+```Py
+cislo = 88
+mocnitel = 12
+
+print(str(cislo + mocnitel) + " cislo je")
+```
