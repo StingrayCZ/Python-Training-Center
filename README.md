@@ -73,3 +73,18 @@ mocnitel = 12
 
 print(str(cislo + mocnitel) + " cislo je")
 ```
+
+## Import
+```Py
+from math import *            # Inmport code fro specific function of math
+
+cislo = 88
+mocnitel = 12
+
+print(str(cislo + mocnitel) + " cislo je")  # This won't run
+
+print(floor(3.7))     # Spodni uroven
+print(ceil(3.2))      # Horni uroven
+print(round(sqrt(36)))
+
+```
