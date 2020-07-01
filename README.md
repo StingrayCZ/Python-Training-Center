@@ -93,5 +93,22 @@ print(round(sqrt(36)))
 ## Uživatelský vstup
 ```Py
 name  = input("Enter your name: ")   # aktivace vstupu
-print("Hello " + name + "!")
+age  = input("Enter your age ")
+print("Hello " + name + "! AndČ your age is " + age)
+```
+
+## Basic calculator
+```Py
+
+num1 = input("Enter a number: ")
+num2 = input("Enter another number: ")
+
+result = float(num1) + float(num2)
+
+# Input 5.3
+# Input 3.3
+
+print(round(result))
+
+# Output 9
 ```
