@@ -37,3 +37,9 @@ print("Giraffe\"Academy")
 phrase = "GiraffeAcademy "
 print(len(phrase))
 ```
+
+## Vyprintování určitého znaku
+```Py
+phrase = "GiraffeAcademy "
+print(phrase[0])
+```
