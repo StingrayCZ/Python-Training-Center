@@ -28,4 +28,8 @@ print("but he didn't like being " + character_age)
 
 ```
 
+```Py
+print("Giraffe\"Academy")
+```
+
 ## 23y32uy
