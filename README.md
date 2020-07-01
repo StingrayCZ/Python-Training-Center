@@ -43,3 +43,9 @@ print(len(phrase))
 phrase = "GiraffeAcademy "
 print(phrase[0])
 ```
+
+## Nalezení pořadí na základě dotazu
+```Py
+phrase = "Giraffe Academy "
+print(phrase.index("Acad"))
+```
