@@ -49,3 +49,9 @@ print(phrase[0])
 phrase = "Giraffe Academy "
 print(phrase.index("Acad"))
 ```
+
+## Záměna obsahu
+```Py
+phrase = "Giraffe Academy "
+print(phrase.replace("Giraffe","Elephant"))
+```
