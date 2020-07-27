@@ -151,7 +151,7 @@ print(str(cislo + mocnitel) + " cislo je")
 
 ## Import
 ```Py
-from math import *            # Inmport code fro specific function of math
+from math import *            # Inmport code from specific function of math
 
 cislo = 88
 mocnitel = 12
