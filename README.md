@@ -104,10 +104,16 @@ print(13 % 5)                   # Vysledek je 3
 
 ## Změna cisla na string (řetězec)
 ```Py
-# Je nutné cislo pred vyprintovanim prevest na string
+# Je nutné cislo pred vyprintovanim prevest na string, pokud je ve vyprintovani i text
 my_num = 35
 
 print("My number is " + str(my_num))
+```
+```Py
+# Pokud je ve vyprintovani jen samotne cislo, prevod na string neni potreba
+my_num = 35
+
+print(my_num)
 ```
 
 ```Py
