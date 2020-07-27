@@ -101,6 +101,14 @@ mocnitel = 12
 print(pow(cislo,mocnitel))
 print(13 % 5)                   # Vysledek je 3
 ```
+```Py
+my_num = -35.33467284
+
+print(round(abs(my_num)))
+
+# round = zaokrouhlit
+# abs - absolutni cislo, tj. kladne
+```
 
 ## Změna cisla na string (řetězec)
 ```Py
