@@ -67,6 +67,11 @@ print(phrase[0])               # vysledek je G
 phrase = "Giraffe Academy "
 print(phrase.index("Acad"))
 ```
+```Py
+# Pozor na velikost pismen
+phrase = "Giraffe academy "
+print(phrase.index("ac"))
+```
 
 ## Záměna obsahu
 ```Py
