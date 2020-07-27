@@ -59,7 +59,7 @@ print(len(phrase))              # vysledek je 15
 ## Vyprintování určitého znaku
 ```Py
 phrase = "GiraffeAcademy "
-print(phrase[0])
+print(phrase[0])               # vysledek je G    
 ```
 
 ## Nalezení pořadí na základě dotazu
