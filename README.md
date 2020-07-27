@@ -86,9 +86,15 @@ print(phrase.replace("Gi","Elephant"))
 # Vysledek je Elephantraffe Academy 
 ```
 
-## Math function
+## Math functions
 ```Py
+# Priklad zapisu cisel, neni potreba %d jako v C :-) )
 
+print(-2.4545)
+print(3 * 4 + 5)
+```
+
+```Py
 cislo = 2
 mocnitel = 12
 
