@@ -122,6 +122,11 @@ from math import *     # knihovna?
 print(floor(3.5))  # zarovna na 3
 print(ceil(3.5))   # zarovna na 4
 ```
+```Py
+from math import *
+
+print(round(sqrt(36)))   # Druha odmocnina
+```
 
 ## Změna cisla na string (řetězec)
 ```Py
