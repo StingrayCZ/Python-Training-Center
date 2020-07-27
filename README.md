@@ -79,6 +79,13 @@ phrase = "Giraffe Academy "
 print(phrase.replace("Giraffe","Elephant"))
 ```
 
+```Py
+phrase = "Giraffe Academy "
+print(phrase.replace("Gi","Elephant"))
+
+# Vysledek je Elephantraffe Academy 
+```
+
 ## Math function
 ```Py
 
