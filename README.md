@@ -53,7 +53,7 @@ print(phrase.upper().isupper())  # kombinace zvetseni vsech pismen na velka, pot
 ## Zmeření počtu prvků v řetezci
 ```Py
 phrase = "GiraffeAcademy "
-print(len(phrase))
+print(len(phrase))              # vysledek je 15
 ```
 
 ## Vyprintování určitého znaku
