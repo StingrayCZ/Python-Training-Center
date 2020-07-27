@@ -125,7 +125,7 @@ print(ceil(3.5))   # zarovna na 4
 ```Py
 from math import *
 
-print(round(sqrt(36)))   # Druha odmocnina
+print(round(sqrt(36)))   # Druha odmocnina, vysledek 6
 ```
 
 ## Změna cisla na string (řetězec)
