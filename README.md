@@ -32,6 +32,24 @@ print("but he didn't like being " + character_age)
 print("Giraffe\"Academy")  # vyprintovani znaku "
 ```
 
+## Boolean - ověření, zda jsou znaky (třeba) velké
+
+```Py
+phrase = "Giraffe Academy "
+
+print(phrase.islower())  # vysledek je False
+
+```
+
+```Py
+phrase = "Giraffe Academy "
+# print(phrase.index("ac"))
+
+print(phrase.upper())
+
+print(phrase.upper().isupper())  # kombinace zvetseni vsech pismen na velka, potom Boolean
+```
+
 ## Zmeření počtu prvků v řetezci
 ```Py
 phrase = "GiraffeAcademy "
