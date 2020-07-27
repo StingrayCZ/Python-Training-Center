@@ -29,7 +29,7 @@ print("but he didn't like being " + character_age)
 ```
 
 ```Py
-print("Giraffe\"Academy")
+print("Giraffe\"Academy")  # vyprintovani znaku "
 ```
 
 ## Zmeření počtu prvků v řetezci
