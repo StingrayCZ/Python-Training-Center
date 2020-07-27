@@ -104,6 +104,13 @@ print(13 % 5)                   # Vysledek je 3
 
 ## Změna cisla na string (řetězec)
 ```Py
+# Je nutné cislo pred vyprintovanim prevest na string
+my_num = 35
+
+print("My number is " + str(my_num))
+```
+
+```Py
 cislo = 88
 mocnitel = 12
 
