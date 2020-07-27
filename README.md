@@ -99,7 +99,7 @@ cislo = 2
 mocnitel = 12
 
 print(pow(cislo,mocnitel))
-print(13 % 5)
+print(13 % 5)                   # Vysledek je 3
 ```
 
 ## Změna cisla na string (řetězec)
