@@ -110,6 +110,19 @@ print(round(abs(my_num)))
 # abs - absolutni cislo, tj. kladne
 ```
 
+```Py
+# srovnani
+print(max(634, 342))
+print(min(634, 342))
+```
+
+```Py
+from math import *     # knihovna?
+
+print(floor(3.5))  # zarovna na 3
+print(ceil(3.5))   # zarovna na 4
+```
+
 ## Změna cisla na string (řetězec)
 ```Py
 # Je nutné cislo pred vyprintovanim prevest na string, pokud je ve vyprintovani i text
@@ -145,7 +158,6 @@ print(ceil(3.2))      # Horni uroven
 print(round(sqrt(36)))
 
 ```
-
 
 ## Uživatelský vstup
 ```Py
