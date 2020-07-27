@@ -173,7 +173,6 @@ print("Hello " + name + "! And your age is " + age)
 
 ## Basic calculator
 ```Py
-
 num1 = input("Enter a number: ")
 num2 = input("Enter another number: ")
 
@@ -185,4 +184,16 @@ result = float(num1) + float(num2)
 print(round(result))
 
 # Output 9
+```
+
+```Py
+num1 = input("Enter a number: ")
+num2 = input("Enter another number: ")
+
+result = num1 + num2      # chybny zapis, pokud je soucet 5 + 8.3, vysledek je chybnych 58.3
+
+# Input 5.3
+# Input 3.3
+
+print(result)
 ```
