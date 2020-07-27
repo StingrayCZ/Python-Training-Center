@@ -168,7 +168,7 @@ print(round(sqrt(36)))
 ```Py
 name  = input("Enter your name: ")   # aktivace vstupu
 age  = input("Enter your age ")
-print("Hello " + name + "! AndČ your age is " + age)
+print("Hello " + name + "! And your age is " + age)
 ```
 
 ## Basic calculator
