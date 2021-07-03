@@ -1,4 +1,4 @@
-# Python-Training-Center
+# Python Training Center
 
 ## Variables
 
