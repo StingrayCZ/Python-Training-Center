@@ -15,7 +15,7 @@ print("but he didn't like being 70")
 
 ```Py
 character_name  = "John"
-character_age  = 50.567754664
+character_age  = 50.567754664   # number
 is_male = False
 
 print("There once was a man named " + character_name + ", ")
