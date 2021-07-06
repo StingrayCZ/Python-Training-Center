@@ -4,7 +4,7 @@
 
 ```Py
 character_name  = "John"
-character_age  = "35"
+character_age  = "35"     # string
 
 
 print("There once was a man named" + character_name + ", ")
