@@ -28,8 +28,9 @@ print("but he didn't like being " + character_age)
 
 ```
 
+## Práce s řetězvi
 ```Py
-print("Giraffe\"Academy")  # vyprintovani znaku "
+print("Giraffe\"Academy")  # vyprintovani znaku
 ```
 
 ## Boolean - ověření, zda jsou znaky (třeba) velké
