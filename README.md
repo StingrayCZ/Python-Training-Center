@@ -31,6 +31,7 @@ print("but he didn't like being " + character_age)
 ## Práce s řetězci
 ```Py
 print("Giraffe\"Academy")  # vyprintovani znaku
+print("Giraffe\nAcademy")  # zalomeni radku
 ```
 
 ## Boolean - ověření, zda jsou znaky (třeba) velké
