@@ -50,6 +50,8 @@ phrase = "Giraffe Academy "
 print(phrase.upper())
 
 print(phrase.upper().isupper())  # kombinace zvetseni vsech pismen na velka, potom Boolean
+
+print(phrase.capitalize())       # porvní písmeno v řetězci je velké
 ```
 
 ## Zmeření počtu prvků v řetezci
