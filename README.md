@@ -28,7 +28,7 @@ print("but he didn't like being " + character_age)
 
 ```
 
-## Práce s řetězvi
+## Práce s řetězci
 ```Py
 print("Giraffe\"Academy")  # vyprintovani znaku
 ```
