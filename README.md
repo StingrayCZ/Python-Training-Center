@@ -66,6 +66,11 @@ phrase = "GiraffeAcademy "
 print(phrase[0])               # vysledek je G    
 ```
 
+```Py
+phrase = "GiraffeAcademy "
+print(phrase[0], phrase[2])     # vysledek je G a r   
+```
+
 ## Nalezení pořadí na základě dotazu
 ```Py
 phrase = "Giraffe Academy "
