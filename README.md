@@ -96,7 +96,7 @@ print(phrase.replace("Gi","Elephant"))
 
 ## Math functions
 ```Py
-# Priklad zapisu cisel, neni potreba %d jako v C :-) )
+# Priklad zapisu cisel, neni potreba %d jako v C :-)
 
 print(-2.4545)
 print(3 * 4 + 5)
@@ -106,13 +106,13 @@ print(3 * 4 + 5)
 cislo = 2
 mocnitel = 12
 
-print(pow(cislo,mocnitel))
-print(13 % 5)                   # Vysledek je 3
+print(13 % 5)                   # Modulo, vysledek je 3
 ```
+
 ```Py
 my_num = -35.33467284
 
-print(round(abs(my_num)))
+print(round(abs(my_num)))   # výsledek je 35
 
 # round = zaokrouhlit
 # abs - absolutni cislo, tj. kladne
@@ -130,19 +130,31 @@ from math import *     # knihovna?
 print(floor(3.5))  # zarovna na 3
 print(ceil(3.5))   # zarovna na 4
 ```
+
+```Py
+from math import *
+
+print(pow(5, 3))   # Mocnina, print(pow(cislo,mocnitel)), výsledek je 125.0
+
+print(round(pow(5,3)))   # Výsledek je 125 
+```
+
 ```Py
 from math import *
 
 print(round(sqrt(36)))   # Druha odmocnina, vysledek 6
 ```
 
+
 ## Změna cisla na string (řetězec)
 ```Py
 # Je nutné cislo pred vyprintovanim prevest na string, pokud je ve vyprintovani i text
+
 my_num = 35
 
 print("My number is " + str(my_num))
 ```
+
 ```Py
 # Pokud je ve vyprintovani jen samotne cislo, prevod na string neni potreba
 my_num = 35
@@ -154,7 +166,18 @@ print(my_num)
 cislo = 88
 mocnitel = 12
 
-print(str(cislo + mocnitel) + " cislo je")
+print(str(cislo + mocnitel) + " cislo je")   # Výsledek je: 100 cislo je
+```
+
+```Py
+from math import *
+
+cislo = 2
+mocnitel = 5
+
+c = round(pow(cislo, mocnitel))
+
+print(c)   # Výsledek je: 32
 ```
 
 ## Import
