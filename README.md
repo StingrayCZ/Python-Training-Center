@@ -47,7 +47,7 @@ print(phrase.islower())  # vysledek je False
 phrase = "Giraffe Academy "
 # print(phrase.index("ac"))
 
-print(phrase.upper())
+print(phrase.upper())            # všechna písmena velká
 
 print(phrase.upper().isupper())  # kombinace zvetseni vsech pismen na velka, potom Boolean
 
