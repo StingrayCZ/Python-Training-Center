@@ -45,7 +45,6 @@ print(phrase.islower())  # vysledek je False
 
 ```Py
 phrase = "Giraffe Academy "
-# print(phrase.index("ac"))
 
 print(phrase.upper())            # všechna písmena velká
 
