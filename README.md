@@ -182,7 +182,7 @@ print(c)   # Výsledek je: 32
 
 ## Import
 ```Py
-from math import *            # Inmport code from specific function of math
+from math import *            # Import code from specific function of math
 
 cislo = 88
 mocnitel = 12
