@@ -207,10 +207,10 @@ print("Hello " + name + "! And your age is " + age)
 num1 = input("Enter a number: ")
 num2 = input("Enter another number: ")
 
-result = float(num1) + float(num2)
+result = float(num1) + float(num2)    
 
-# Input 5.3
-# Input 3.3
+# Input 5
+# Input 8.3
 
 print(result
 #print(round(result))
@@ -222,10 +222,33 @@ print(result
 num1 = input("Enter a number: ")
 num2 = input("Enter another number: ")
 
-result = num1 + num2      # chybny zapis, pokud je soucet 5 + 8.3, vysledek je chybnych 58.3
+result = num1 + num2      # chybny zapis, pokud je soucet 5 + 8.3, vysledek je chybnych 58.3, protože se jedná o součet řetězců
 
-# Input 5.3
-# Input 3.3
+# Input 5
+# Input 8.3
 
 print(result)
+```
+
+## Mad Libs Game
+
+```Py
+color = input("Enter a color: ")
+plural_noun = input("Enter a Plural Noun: ")
+celebrity = input("Enter a celebrity: ")
+
+
+print("Roses are " + color)
+print(plural_noun + " are blue")
+print("I love " + celebrity)
+```
+
+## Lists
+
+```Py
+
+friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"]
+
+
+print(friends[0])
 ```
