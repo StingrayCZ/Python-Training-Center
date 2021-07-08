@@ -252,3 +252,9 @@ friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"]
 
 print(friends[0])
 ```
+
+```Py
+friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"]
+friends[1] = "Mike"
+print(friends[1])
+```
