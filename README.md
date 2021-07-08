@@ -187,7 +187,7 @@ from math import *            # Import code from specific function of math
 cislo = 88
 mocnitel = 12
 
-print(str(cislo + mocnitel) + " cislo je")  # This won't run
+print(str(cislo + mocnitel) + " cislo je")  # This will not run
 
 print(floor(3.7))     # Spodni uroven
 print(ceil(3.2))      # Horni uroven
