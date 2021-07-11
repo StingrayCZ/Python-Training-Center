@@ -249,14 +249,14 @@ print("I love " + celebrity)
 
 friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"]
 
-
-print(friends[0])
+print(friends[0])  # Vypíše všechny jmena obsažené v listu
 ```
 
 ```Py
 friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"]
-friends[1] = "Mike"
-print(friends[1])
+friends[1] = "Mike"  # Karen se mění na Mike
+print(friends[1])  
+print(friends[1:])   # Vyprintuje pozici 1 a následující
 ```
 
 ## List Functions
