@@ -1,4 +1,4 @@
-# Oblast č.2: Odkazy na objekty
+## Oblast č.2: Odkazy na objekty
 
 ```Py
 x = "modrá"
@@ -23,4 +23,6 @@ route = "Sever"
 print(type(route))
 ```
 
-# Datové typy pro kolekce - Tuple, List
+## Datové typy pro kolekce - Tuple, List
+N-tice jsou neměnitelné, takže je po vytvoření již nelze změnit. Seznamy jsou měnitelné, takže lze 
+snadno vkládat a odebírat prvky, kdykoli chceme.
