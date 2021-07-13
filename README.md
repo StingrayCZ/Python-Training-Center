@@ -259,20 +259,62 @@ N-tice (tuple) jsou neměnitelné, takže je po vytvoření již nelze změnit. 
 snadno vkládat a odebírat prvky, kdykoli chceme.
 
 ```Py
+# Příklad co všechno se dá uložit do listu
+friends = ["Kevin", 2,False]
+```
 
+
+```Py
 friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"]
 
-print(friends[0])  # Vypíše všechny jmena obsažené v listu
+print(friends[0])  # Vypíše nultou pozici
 ```
 
 ```Py
 friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"]
 friends[1] = "Mike"  # Karen se mění na Mike
 print(friends[1])  
+```
+
+```Py
 print(friends[1:])   # Vyprintuje pozici 1 a následující
+print(friends[-1])   # Vyprintuje poslední pozici
+print(friends[1:3])  # Vypíše vše od pozice 1 až po pozici 3, tedy "Karen", "Jim"
 ```
 
 ## List Functions
+
+```Py
+lucky_numbers = [4, 8, 15, 16, 23, 42]
+friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"]
+friends.extend(lucky_numbers)   # Spojení dvou listů
+print(friends)
+
+# Výsledek: ['Kevin', 'Karen', 'Jim', 'Oscar', 'Toby', 4, 8, 15, 16, 23, 42]
+```
+
+```Py
+friends.append("Creed") # Přidání dalšího str na poslední místo listu
+```
+
+```Py
+friends.insert(1, "Creed") # Vnoření dalšío jmína na pozici 1 a posunutí zbytku za něj
+# Výsledek: ['Kevin', 'Creed', 'Karen', 'Jim', 'Oscar', 'Toby']
+```
+
+```Py
+friends.remove("Jim") # Smazání určité pozice dle jména
+```
+
+```Py
+friends.clear() # Smazání všeho. Výsledek: []
+```
+
+```Py
+friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"]
+
+print(friends.index('Mike'))  # Vyprintování pozice. V případě že tu jméno není, je hlášena chyba
+```
 
 
 ## Tuple (n-tice)
