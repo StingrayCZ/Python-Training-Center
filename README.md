@@ -242,6 +242,17 @@ print("Roses are " + color)
 print(plural_noun + " are blue")
 print("I love " + celebrity)
 ```
+## Přístup k prvkům (v řetězcích)
+
+```py
+# Zápis v Idle (Python shell)
+"těžké časy"   # Výstup: č
+"žirafa"       # Výstup: ž
+
+# Zápis v PyCharm
+print("Těžké časy"[6])   # Výstup: č
+print("žirafa"[0])       # Výstup: ž
+```
 
 ## Lists
 
