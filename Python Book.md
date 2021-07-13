@@ -13,3 +13,14 @@ print(x, y, z) # Vypíše: modrá, zelená, zelená
 x = z
 print(x, y, z) # Vypíše: zelená, zelená, zelená
 ```
+
+```Py
+# zobrazení typu proměnné
+route = 866
+print(type(route))
+
+route = "Sever"
+print(type(route))
+```
+
+# Datové typy pro kolekce - Tuple, List
