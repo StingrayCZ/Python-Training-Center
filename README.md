@@ -254,7 +254,9 @@ print("Těžké časy"[6])   # Výstup: č
 print("žirafa"[0])       # Výstup: ž
 ```
 
-## Lists
+## Lists (seznam)
+N-tice (tuple) jsou neměnitelné, takže je po vytvoření již nelze změnit. Seznamy(list) jsou měnitelné, takže lze 
+snadno vkládat a odebírat prvky, kdykoli chceme.
 
 ```Py
 
@@ -271,4 +273,13 @@ print(friends[1:])   # Vyprintuje pozici 1 a následující
 ```
 
 ## List Functions
+
+
+## Tuple (n-tice)
+
+```Py
+(1,)    # jednoprvková n-tice
+"one,"
+()      # prazdna n-tice
+```
 
