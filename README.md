@@ -435,3 +435,5 @@ elif not is_male and is_tall:
 else:
     print("You are neither man nor tall or both")
 ```
+
+## If Statements & Comparisons
