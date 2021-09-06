@@ -294,8 +294,14 @@ print(friends)
 ```
 
 ```Py
-friends.append("Creed") # Přidání dalšího str na poslední místo listu
+friends.append("Creed")     # Přidání dalšího str na poslední místo listu
+friends.pop()               # Vyřadí poslední pozici v listu
+print(friends.count("Jim")  # Spočítá kolikrát se v listu objeví tento výáraz
+friends.sort()              # Seřazení vzestupně
+friends.reverse()           # Otočení pořadí
+friends2 = friends.copy()   # Zkopírování obsahu do jiného listu
 ```
+
 
 ```Py
 friends.insert(1, "Creed") # Vnoření dalšío jmína na pozici 1 a posunutí zbytku za něj
@@ -319,9 +325,47 @@ print(friends.index('Mike'))  # Vyprintování pozice. V případě že tu jmén
 
 ## Tuple (n-tice)
 
+Neměnitelné
+
 ```Py
 (1,)    # jednoprvková n-tice
 "one,"
 ()      # prazdna n-tice
 ```
 
+```Py
+coordinates = (4, 5)
+coordinates = [4, 5]
+coordinates = [(4, 5), (6, 7), (80, 34)]
+print(coordinates)
+print(coordinates[1])
+```
+
+```Py
+coordinates[0] = 10   # Nelze provést
+```
+## Function (definition)
+
+```Py
+def say_hi():
+    print("Hello User")
+
+say_hi()
+```
+
+```Py
+# Pouze řetězce
+def say_hi(name, age):
+    print("Hello" + name + ", you are " + age)
+
+say_hi("Mike", "35")
+say_hi("Steve", "70")
+```
+```Py
+# Řetězce a čísla
+def say_hi(name, age):
+    print("Hello" + name + ", you are " + (str)ge)
+
+say_hi("Mike", 35)
+say_hi("Steve", 70)
+```
