@@ -369,3 +369,69 @@ def say_hi(name, age):
 say_hi("Mike", 35)
 say_hi("Steve", 70)
 ```
+
+## Return Statement
+
+```Py
+# Chybný zápis, vrací None
+def cube(num):
+    num*num*num
+
+print(cube(3))
+```
+
+```Py
+def cube(num):
+    return num*num*num    # Návrat hodnoty
+
+print(cube(3))
+```
+```Py
+def cube(num):
+    return num*num*num
+    print("cod")        # nevrátí
+
+result = cube(4)
+
+print(result)
+```
+
+## If Statements
+
+```Py
+is_male = True # Boolean variable
+
+if is_male:
+    print("You are male")
+
+else:
+    print("You are not a male")
+```
+
+```Py
+is_male = False # Boolean variable
+is_tall = False
+
+if is_male or is_tall:
+#if is_male or is_tall:
+    print("You are male")
+    
+elif is_male and not is_tall
+
+else:
+    print("You are not a male")
+```
+
+```Py
+is_male = False # Boolean variable
+is_tall = False
+
+if is_male and is_tall:
+    print("You are male")
+elif is_male and not is_tall:
+    print("You are a short male")
+elif not is_male and is_tall:
+    print("You are not a male but are tall")
+else:
+    print("You are neither man nor tall or both")
+```
