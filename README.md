@@ -4,7 +4,6 @@
 
 <a href="https://pythonremotecz5.zone.sdacademy.pro/schedule/"> 
 Time Schedul</a>
-https://pythonremotecz5.zone.sdacademy.pro/schedule/
 
 ## Variables
 
