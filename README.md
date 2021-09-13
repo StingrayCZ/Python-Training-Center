@@ -442,3 +442,41 @@ else:
 ```
 
 ## If Statements & Comparisons
+
+```Py
+def max_num(num1, num2, num3):
+    if num1 >= num2 and num1 >= num3:
+        return num1
+    elif num2 >= num1 and num2 >= num3:
+        return num2
+    else:
+        return num3
+
+print(max_num(160, 40, 50))
+```
+
+## Build a better calculator
+
+```Py
+num1 = float(input("Enter first number: "))
+op = input("Enter operator: ")
+num2 = float(input("Enter second number: "))
+
+if op == "+":
+    print(num1 + num2)
+elif op == "-":
+    print(num1 - num2)
+elif op == "/":
+    print(num1 / num2)
+elif op == "*":
+    print(num1 * num2)
+else:
+    print("Invali operator")
+```
+
+## Dictionaries
+
+```Py
+
+```
+
