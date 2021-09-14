@@ -2,8 +2,7 @@
 
 ## SDA Links
 
-<a href="https://pythonremotecz5.zone.sdacademy.pro/schedule/"> 
-Time Schedule</a>
+<a href="https://pythonremotecz5.zone.sdacademy.pro/schedule/">Time Schedule</a>
 
 ## Variables
 
