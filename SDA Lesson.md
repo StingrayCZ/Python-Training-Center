@@ -11,3 +11,15 @@ print("svete!")
 
 print("Ahoj", "svete!", sep=", ")
 ```
+
+## 2nd Lesson SDA
+
+```Py
+cislo = int("5")
+print(type(cislo))
+
+"""
+Multiline comment
+"""
+
+```
