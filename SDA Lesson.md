@@ -57,3 +57,8 @@ a += 7
 print(a)
     
 ```
+
+```Py
+print(False and False or True)
+    
+```    
