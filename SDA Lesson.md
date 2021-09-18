@@ -27,6 +27,6 @@ Multiline comment
 ### KeyWords
 
 <p float="left">
-  <img src="/Python-Training-Center/KeyWords.PNG" width="1000" />
+  <img src="KeyWords.PNG" width="1000" />
     
 ### Operator
