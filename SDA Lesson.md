@@ -27,6 +27,16 @@ Multiline comment
 ### KeyWords
 
 <p float="left">
-  <img src="KeyWords.PNG" width="1000" />
+  <img src="KeyWords.PNG" width="900" />
     
-### Operator
+### Operators
+    
+<p float="left">
+  <img src="Operator.PNG" width="900" />
+    
+```Py
+print("abc" + "edf") 
+    
+    
+    
+```
