@@ -77,3 +77,21 @@ print(a, b, sep="-")    # 123-abc
 percent = 0.71
 print(f"{percent: .1%}")  # will display 71.0%
 ```
+
+    
+### Prime Number
+    
+```Py
+import math
+
+num_to_check = 30
+max_div = math.floor((num_to_check) ** (1/2))
+prime = num_to_check % 2 == 0 and num_to_check % 3 == 0
+
+for i in range(2, max_div):
+    if num_to_check % i == 0:
+        print('Not Prime')
+        exit()
+
+print(prime)    
+ ```
