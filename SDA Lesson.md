@@ -35,8 +35,25 @@ Multiline comment
   <img src="Operator.PNG" width="900" />
     
 ```Py
-print("abc" + "edf") 
+print("abc" + "edf")          # spojovani stringu
+print(("Hi" + " ") * 5)       # 
+
+```
+    
+### Value Error
+• Type
+• Value
+• Name
+• ZeroError
+• Syntax    
     
     
+    
+### Assigment operator
+    
+ ```Py
+a = 5
+a += 7
+print(a)
     
 ```
