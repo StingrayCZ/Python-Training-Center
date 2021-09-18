@@ -61,4 +61,13 @@ print(a)
 ```Py
 print(False and False or True)
     
+```   
+    
+### Separator
+    
+```Py
+a = 123
+b = "abc"
+print(a, b, sep="-")    # 123-abc    
+    
 ```    
