@@ -4,6 +4,9 @@
 
 <a href="https://pythonremotecz5.zone.sdacademy.pro/schedule/">Time Schedule</a>
 
+<a href="https://www.python.org/dev/peps/pep-0008/">PEP8 Style</a>
+
+
 ## Variables
 
 ```Py
