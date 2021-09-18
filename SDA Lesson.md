@@ -70,4 +70,10 @@ a = 123
 b = "abc"
 print(a, b, sep="-")    # 123-abc    
     
-```    
+```
+   
+### Percent    
+```Py
+percent = 0.71
+print(f"{percent: .1%}")  # will display 71.0%
+```
