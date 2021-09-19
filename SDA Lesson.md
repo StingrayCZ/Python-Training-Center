@@ -161,5 +161,5 @@ test_list.append(test2)
 print(test_list)              # Delka listu je 4, 3 casti + 1 blok
 
 print(test_list[3])
-    
+print(test_list.index(2))
 ```        
