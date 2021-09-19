@@ -143,4 +143,12 @@ print(type(None))
 • Tuple
 • Set
     
-### Formating
+### Add List
+    
+```Py
+test_list = [1, 2, 3]
+test2 = [1, 2, 6]             # Nested List
+test_list.append('10')
+print(test_list)              # Delka listu je 4, 3 casti + 1 blok
+    
+```    
