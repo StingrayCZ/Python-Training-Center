@@ -275,9 +275,10 @@ for x in range(len(numbers_list)):
 ### Reseni
 
 ```Py
+# úkol: z listu vyhodit duplicitní čísla a následně list uspořádat  vzestupně:
 numbers_list  =  [1, 1, 0, 5, 6, 8, 9, 156, 1515151515, 89, 62, 5, 89, 45, 3, 3]
 numbers_list  = list(dict.fromkeys(numbers_list ))
-numbers_list .sort()
+numbers_list.sort()
 print(numbers_list ) 
 
 # Vysledek [0, 1, 3, 5, 6, 8, 9, 45, 62, 89, 156, 1515151515]
