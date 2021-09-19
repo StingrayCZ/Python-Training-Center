@@ -104,6 +104,17 @@ print(prime)
 sample_string = 'Hello, World!"'
 print(sample_string[::-1])
 ```
+    
+### Data Types
+    
+```Py
+print(type("Text to print"))
+print(type(-17.0))
+print(type(123.4))
+print(type(False))
+print(type(None))
+    
+```    
 
 ### Collection
 
