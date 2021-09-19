@@ -12,7 +12,7 @@ print("svete!")
 print("Ahoj", "svete!", sep=", ")
 ```
 
-## 2nd Lesson SDA
+## 2nd Lesson SDA (18th Sep 2021)
 
 ```Py
 cislo = int("5")
@@ -95,3 +95,18 @@ for i in range(2, max_div):
 
 print(prime)    
  ```
+
+## 3rd Lesson SDA (19th Sep 2021)
+  
+### Strings  
+  
+```Py  
+sample_string = 'Hello, World!"'
+print(sample_string[::-1])
+```
+
+	
+	
+	
+	
+    
