@@ -171,7 +171,37 @@ print(test_list.index(2))           # index urciteho znaku
 test2 = [1, 2, 6, 4, 9, 15, 78, 3]             # Nested List
 
 test3 = sorted(test2)
+test2.sort()
 
 print(test3)
-print(test2)    
+print(test2)st2)    
 ```    
+
+    
+ ### List Functions
+    
+• 
+• Pop
+    
+```Py
+    
+```    
+    
+    
+### Dictionaries
+    
+# Create an empty dictionary
+phonebook = {}
+
+# Add two items
+phonebook["John"] = 111111111
+phonebook["Jack"] = 222222222
+
+print(phonebook)
+print(phonebook["Jack"])
+
+# Definition of the finished dictionary
+phonebook2 = {
+    "John": 111111111,
+    "Jack": 222222222
+}
