@@ -222,6 +222,7 @@ else:
 ``` 
     
 ```Py
+# Spocitej vyskyt urciteho jmena
 name = ['Aneta', 'Pavla', 'Mirek', 'Ota','Aneta', 'Pavla', 'Mirek', 'Ota','Aneta', 'Pavla',
         'Mirek', 'Mirek', 'Ota', 'Pavel']
 
