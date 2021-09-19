@@ -63,7 +63,6 @@ print(("Hi" + " ") * 5)       #
 • Syntax    
     
     
-    
 ### Assigment operator
     
  ```Py
@@ -86,6 +85,13 @@ b = "abc"
 print(a, b, sep="-")    # 123-abc    
     
 ```
+
+### Decimal Number
+    
+```Py    
+n = 109.2345654324
+print(f"{n: .3f}") # will display 109.234
+```
    
 ### Percent    
 ```Py
@@ -93,7 +99,6 @@ percent = 0.71
 print(f"{percent: .1%}")  # will display 71.0%
 ```
 
-    
 ### Prime Number
     
 ```Py
@@ -136,4 +141,6 @@ print(type(None))
 • List (list)
 • Dictionary (dict)
 • Tuple
-• Set	
+• Set
+    
+### Formating
