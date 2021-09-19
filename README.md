@@ -475,10 +475,3 @@ elif op == "*":
 else:
     print("Invali operator")
 ```
-
-## Dictionaries
-
-```Py
-
-```
-
