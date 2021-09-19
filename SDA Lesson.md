@@ -220,3 +220,18 @@ if (num % 5) == 0:
 else:
     print("Neni delitelne") 
 ``` 
+    
+```Py
+name = ['Aneta', 'Pavla', 'Mirek', 'Ota','Aneta', 'Pavla', 'Mirek', 'Ota','Aneta', 'Pavla',
+        'Mirek', 'Mirek', 'Ota', 'Pavel']
+
+query = input("Zadej jmeno: ")
+
+# name.count(query))
+
+if name.count(query) == 0:
+    print("Jmeno neexistuje")
+
+else:
+    print(f"Jmeno {query} je obazeno v poli {name.count(query)} krat")    
+```    
