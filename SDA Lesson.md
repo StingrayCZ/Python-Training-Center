@@ -237,7 +237,7 @@ else:
     print(f"Jmeno {query} je obazeno v poli {name.count(query)} krat")    
 ```    
 
-    
+### Pokus 
 ```Py
 import math
 
@@ -262,8 +262,6 @@ for x in range(len(numbers_list)):
 # print(len(numbers_list))
 
 
-
-
 # fruits = ["apple", "banana", "cherry"]
 # for x in fruits:
 #   print(x) {name.count(query)} krat")
@@ -273,4 +271,12 @@ for x in range(len(numbers_list)):
 #
 #     name = numbers_list[num]
 #     print(name) 
-```    
+```
+### Reseni
+
+```Py
+numbers_list  =  [1, 1, 0, 5, 6, 8, 9, 156, 1515151515, 89, 62, 5, 89, 45, 3, 3]
+numbers_list  = list(dict.fromkeys(numbers_list ))
+numbers_list .sort()
+print(numbers_list ) 
+```
