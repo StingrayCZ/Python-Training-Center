@@ -155,11 +155,23 @@ print(test_list)              # Delka listu je 4, 3 casti + 1 blok
     
 ```Py
 test_list = [1, 2, 3]
-test2 = [1, 2, 6]             # Nested List
+test2 = [1, 2, 6]                   # Nested List
 # test_list.append('10')
-test_list.append(test2)
-print(test_list)              # Delka listu je 4, 3 casti + 1 blok
+test_list.append(test2)             # Prirazeni        
+test_list.extend(["f", "d", "g"])   # Pridani
+print(test_list)                    # Delka listu je 4, 3 casti + 1 blok
 
 print(test_list[3])
-print(test_list.index(2))     # index urciteho znaku
+print(test_list.index(2))           # index urciteho znaku
 ```        
+    
+### Sort() vs. Sorted
+    
+```Py
+test2 = [1, 2, 6, 4, 9, 15, 78, 3]             # Nested List
+
+test3 = sorted(test2)
+
+print(test3)
+print(test2)    
+```    
