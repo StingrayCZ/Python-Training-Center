@@ -236,3 +236,41 @@ if name.count(query) == 0:
 else:
     print(f"Jmeno {query} je obazeno v poli {name.count(query)} krat")    
 ```    
+
+    
+```Py
+import math
+
+# numbers_list = [1, 1, 0, 5, 6, 8, 9, 156, 1515151515, 89, 62, 5, 89, 45, 3, 3]
+numbers_list = [1, 1, 1, 8, 6, 6]
+
+BlackList = []
+
+for x in range(len(numbers_list)):
+
+    if (numbers_list.count(numbers_list[x])) > 1:
+
+        print(numbers_list[x])
+
+
+        # numbers_list.remove(val)
+
+
+
+    # iteraton += 1
+
+# print(len(numbers_list))
+
+
+
+
+# fruits = ["apple", "banana", "cherry"]
+# for x in fruits:
+#   print(x) {name.count(query)} krat")
+#
+# if numbers_list.count(x) > 1:
+#     # numbers_list.pop(num)
+#
+#     name = numbers_list[num]
+#     print(name) 
+```    
