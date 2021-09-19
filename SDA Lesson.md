@@ -34,6 +34,21 @@ Multiline comment
 <p float="left">
   <img src="Operator.PNG" width="900" />
     
+### Formatting
+    
+```Py
+# Formating
+title = "General"
+name = "Kenobi"
+print("Hello there, {} {}".format(title, name))
+print("Hello there, {} {} {}".format(title, name, name))
+
+print(f"Hello there, {title} {name}")
+
+print("Hello there, {name} {title}".format(name=name, title=title))
+print("Hello there, {n} {m}".format(n=name, m=title))    
+```    
+    
 ```Py
 print("abc" + "edf")          # spojovani stringu
 print(("Hi" + " ") * 5)       # 
