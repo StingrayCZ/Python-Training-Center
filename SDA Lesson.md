@@ -189,7 +189,8 @@ print(test2)st2)
     
     
 ### Dictionaries
-    
+
+```Py
 # Create an empty dictionary
 phonebook = {}
 
@@ -205,3 +206,17 @@ phonebook2 = {
     "John": 111111111,
     "Jack": 222222222
 }
+```
+
+    
+### Input
+    
+```Py
+# Je cislo delitelne 5?
+num = int(input("Zadej cislo: "))
+
+if (num % 5) == 0:
+    print(" je delitelne")
+else:
+    print("Neni delitelne") 
+``` 
