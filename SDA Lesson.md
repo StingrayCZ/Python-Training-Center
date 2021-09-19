@@ -105,8 +105,9 @@ sample_string = 'Hello, World!"'
 print(sample_string[::-1])
 ```
 
-	
-	
-	
-	
-    
+### Collection
+
+• List (list)
+• Dictionary (dict)
+• Tuple
+• Set	
