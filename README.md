@@ -475,3 +475,56 @@ elif op == "*":
 else:
     print("Invali operator")
 ```
+
+
+## Dictionaries
+
+```Py
+monthConversions = {
+    # Key: associate Value
+    "Jan": "January",
+    "Feb": "February",
+    "Mar": "March",
+    "Apr": "April",
+    "May": "May",
+    "Jun": "June",
+    "Jul": "July",
+    "Aug": "August",
+    "Sep": "September",
+    "Oct": "October",
+    "Nov": "November",
+    "Dec": "December",
+}
+
+print(monthConversions["Mar"])                           # Napise: March
+print(monthConversions.get("Dec"))
+print(monthConversions.get("Luv"))                       # Napise: None
+
+# Napise: Not a valid key
+print(monthConversions.get("Luv", "Not a valid key"))
+```
+
+```Py
+# Example where keys are number (instead strings)
+
+monthConversions = {
+    # Key: associate Value
+    1: "January",
+    2: "February",
+    "Mar": "March",
+    "Apr": "April",
+    "May": "May",
+    "Jun": "June",
+    "Jul": "July",
+    "Aug": "August",
+    "Sep": "September",
+    "Oct": "October",
+    "Nov": "November",
+    "Dec": "December",
+}
+
+print(monthConversions[1])                           # Napise: March
+print(monthConversions.get(2))
+print(monthConversions.get("Mar"))
+
+```
