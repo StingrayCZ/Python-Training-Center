@@ -168,3 +168,25 @@ TestNumber = input("zadej cislo na test: \n")
 
 PrimeCheck(int(TestNumber))
 ```
+
+```Py
+import math
+
+def PrimeCheck(num):
+
+
+    max_div = math.floor((num) ** (1 / 2))
+
+    for i in range(2, num):
+        if (num % i) == 0:
+            # if factor is found, set flag to True
+            print("Neni prvocislo")
+            # break out of loop
+            break
+
+        else:
+            print("Je prvocislo")
+            break
+
+PrimeCheck(int(input("zadej cislo na test: \n")))
+```
