@@ -12,7 +12,7 @@
 
 <a href="https://www.w3schools.com/python/exercise.asp?filename=exercise_dictionaries3">w3schools - Python</a>
 
-<a href="https://www.jetbrains.com/academy/">JetBrains - Python</a>
+<a href="https://www.jetbrains.com/academy/">JetBrains</a>
 
 
 ## Variables
