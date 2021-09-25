@@ -146,3 +146,25 @@ def greet_by_name(name):
 # Call function greet_by_name (name) with "John" as the name argument
 greet_by_name("John")
 ```
+
+```Py
+# funkce na testovani prvocisla
+import math
+
+def PrimeCheck(num):
+
+    max_div  = math.floor((num) ** (1 / 2))
+    prime = num % 2 == 0 and num % 3 == 0
+
+    for i in range(2, max_div):
+        if num % i == 0:
+            print('Not Prime')
+            exit()
+
+    print("prime")
+
+
+TestNumber = input("zadej cislo na test: \n")
+
+PrimeCheck(int(TestNumber))
+```
