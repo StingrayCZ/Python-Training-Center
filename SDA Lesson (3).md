@@ -299,3 +299,16 @@ number = input("Zadej velikost: \n")
 
 VenusSecret(int(number))
 ```
+
+```Py
+zadane_cislo = int(input('Vloz cislo: \n'))
+for i in range(0, zadane_cislo):
+    for k in range(0, i + 1):
+        print("*", end='')
+    print("/r")
+
+for i in range(zadane_cislo, 0, -1):
+    for k in range(0, i - 1):
+        print("*", end='')
+    print("/r")
+```
