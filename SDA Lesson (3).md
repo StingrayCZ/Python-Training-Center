@@ -216,3 +216,28 @@ user_num = int(input("vlozit cislo: \n"))
 print(prime(user_num))
 
 ```
+
+## For Loop training
+
+```Py
+num = int(input("zadej cislo: \n"))
+
+for i in range(num):
+    print((i * " ") + (i * "*"))
+
+for i in range(num, 0, -1):
+    print((i * " ") + (i * "*"))
+    
+"""
+ *
+  **
+   ***
+    ****
+     *****
+    ****
+   ***
+  **
+ *
+"""
+    
+```
