@@ -135,3 +135,14 @@ while n < 1001:
 print(numbers)
 print(len(numbers))
 ```
+
+## Funkce
+
+```Py
+# Function definition of greet_by_name (name)
+def greet_by_name(name):
+    print(f"Hello, {name}")
+
+# Call function greet_by_name (name) with "John" as the name argument
+greet_by_name("John")
+```
