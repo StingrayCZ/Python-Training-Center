@@ -266,3 +266,36 @@ for i in range(num, 0, -1):
 """
     
 ```
+
+## HomeWork
+
+```Py
+def VenusSecret(num):
+    numA = num
+    numB = num
+
+    for i in range(num):
+
+        numA -= 1
+
+        if i < 3:
+            print(numA * " " + "*" + (2 * i) * " " + "*")
+        else:
+            print(numA * " " + "*" + (i - 1) * " " + "0" + i * " " + "*")
+
+    for g in range(num):
+
+        numB -= 1
+        test = num
+
+        if g < (test - 3):
+            print(g * " " + "*" + (numB - 1) * " " + "0" + numB * " " + "*")
+        else:
+            print(g * " " + "*" + (2 * numB) * " " + "*")
+
+
+
+number = input("Zadej velikost: \n")
+
+VenusSecret(int(number))
+```
