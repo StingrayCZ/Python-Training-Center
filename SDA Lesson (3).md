@@ -149,6 +149,7 @@ greet_by_name("John")
 
 ```Py
 # funkce na testovani prvocisla
+# Nefunguje zcela spravne
 import math
 
 def PrimeCheck(num):
@@ -170,6 +171,7 @@ PrimeCheck(int(TestNumber))
 ```
 
 ```Py
+# Nefunguje zcela spravne
 import math
 
 def PrimeCheck(num):
