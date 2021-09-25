@@ -92,8 +92,7 @@ print(len(numbers))  # Prints 1000
 
 ## Task
 
-
-
+• Řešení pomocí **for** (správně)
 ```Py
 numbers = []
 for i in range(3, 1000, 3):
@@ -107,6 +106,8 @@ print(numbers)  # Prints 1000
 
 ```
 
+
+• Řešení pomocí **for** (špatně)
 ```Py
 numbers = []
 for i in range(3, 1000, 3):
@@ -118,5 +119,19 @@ for i in range(3, 1000, 3):
 
 print(len(numbers))  # Prints 1000
 print(numbers)  # Prints 1000
+```
 
+• Řešení pomocí **while** (správně)
+```Py
+numbers = []
+n = 0
+
+while n < 1001:
+    n += 3
+    if n % 7 == 0:
+        continue
+    numbers.append(n)
+
+print(numbers)
+print(len(numbers))
 ```
