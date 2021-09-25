@@ -217,6 +217,31 @@ print(prime(user_num))
 
 ```
 
+```Py
+# Funguje!!! By Katka 
+
+import math
+
+cislo = int(input("Zadej cele cislo:"))
+
+def je_prvocislo(cislo):
+
+    if cislo == 1:
+        print("Cislo:", cislo, "neni prvocislo")
+        
+    else:
+        odmocnina = int(math.sqrt(cislo))
+        for i in range(2, odmocnina + 1):
+            if cislo % 1 == 0:
+                return False
+            return  True
+
+if je_prvocislo(cislo) == True:
+    print("Cislo: ", cislo, "je prvocislo!")
+else:
+    print("Cislo: ", cislo, "neni prvocislo!")
+```
+
 ## For Loop training
 
 ```Py
