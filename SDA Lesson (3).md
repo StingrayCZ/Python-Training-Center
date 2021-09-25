@@ -192,3 +192,27 @@ def PrimeCheck(num):
 
 PrimeCheck(int(input("zadej cislo na test: \n")))
 ```
+
+```Py
+# Funguje!!! By Tatran 
+
+import math
+
+def prime(num):
+
+    if num == 2:
+        return True
+    elif num % 2 == 0 or num <= 1:
+        return False
+
+    sqr = int(math.sqrt(num)) + 1
+
+    for divisor in range(3, sqr, 2):
+        if num % divisor == 0:
+            return False
+    return True
+
+user_num = int(input("vlozit cislo: \n"))
+print(prime(user_num))
+
+```
