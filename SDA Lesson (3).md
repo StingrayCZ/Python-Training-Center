@@ -89,3 +89,34 @@ print(len(numbers))  # Prints 1000
 numbers = [i for i in range(1000)]
 print(len(numbers))  # Prints 1000
 ```
+
+## Task
+
+
+
+```Py
+numbers = []
+for i in range(3, 1000, 3):
+    if i % 7 == 0:
+        continue
+    numbers.append(i)
+
+
+print(len(numbers))  # Prints 1000
+print(numbers)  # Prints 1000
+
+```
+
+```Py
+numbers = []
+for i in range(3, 1000, 3):
+
+    numbers.append(i)
+
+    if (i % 7 == 0) and (i % 3 == 0):
+        continue
+
+print(len(numbers))  # Prints 1000
+print(numbers)  # Prints 1000
+
+```
