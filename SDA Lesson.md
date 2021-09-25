@@ -283,3 +283,21 @@ print(numbers_list )
 
 # Vysledek [0, 1, 3, 5, 6, 8, 9, 45, 62, 89, 156, 1515151515]
 ```
+    
+```Py
+# 1st Reseni by Tatran    
+numbers_list  =  [1, 1, 0, 5, 6, 8, 9, 156, 1515151515, 89, 62, 5, 89, 45, 3, 3]    
+print(sorted(set(numbers_list))) 
+```    
+    
+```Py
+# 2nd Reseni by Tatran 
+numbers_list  =  [1, 1, 0, 5, 6, 8, 9, 156, 1515151515, 89, 62, 5, 89, 45, 3, 3]
+
+set = set(numbers_list)
+print(set)
+set2 = list(set)
+print(set2)
+set3_sorted = sorted(set2)
+print(set3_sorted)    
+```    
