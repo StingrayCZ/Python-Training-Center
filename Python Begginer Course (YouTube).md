@@ -588,3 +588,22 @@ def app_test_second(a, b):
 
     return(a * b)
 ```
+
+## Building a Guessing Game
+
+```Py
+secrete_
+
+```
+
+
+```Py
+\" – double quote
+\\ – single backslash
+\a – bell/alert
+\b – backspace
+\r – carriage return
+\n – newline
+\s – space
+\t – tab
+```
