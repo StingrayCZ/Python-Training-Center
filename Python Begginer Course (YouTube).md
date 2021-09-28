@@ -557,3 +557,34 @@ while swag:
     if i == 5:
         swag = False
 ```
+
+## Main.py & other.py
+
+```Py
+# MAIN.py
+from test_file import *
+
+var_a = 5
+var_b = 12
+
+resultA = app_test(var_a, var_b)
+
+print(resultA)
+
+resultB = app_test(var_a, var_b) + app_test_second(var_a, var_b)
+
+print(resultB)
+```
+
+```Py
+# other.py
+
+# Test app_test
+def app_test(a, b):
+    return(a + b)
+
+# Test app_test_second
+def app_test_second(a, b):
+
+    return(a * b)
+```
