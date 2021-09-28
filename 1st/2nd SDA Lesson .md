@@ -4,7 +4,7 @@
 • bite-sized examples
 
 **Framework**
-• django </> 
+• django </p> 
 • MVC
 • Rest-ful APIS
 • Aglue (SRCUM)
