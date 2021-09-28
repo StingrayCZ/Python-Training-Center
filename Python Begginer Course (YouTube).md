@@ -527,10 +527,21 @@ print(monthConversions.get("Mar"))
 ## While Loop
 
 ```Py
+# This code will print numbers 1 to 10
 i = 1
 while i <= 10:  # while this codition up here is true
     print(i)
     i += 1      # increment
+
+print("Done with loop")
+```
+
+```Py
+# This code will print numbers 30 to 10
+i = 30
+while i >= 10:  # while this codition up here is true
+    print(i)
+    i -= 1      # increment
 
 print("Done with loop")
 ```
