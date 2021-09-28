@@ -1,37 +1,37 @@
 ## 1st Lesson SDA
 
 • basic data structures </p> 
-• bite-sized examples </> 
+• bite-sized examples </p> 
 
 **Framework**
 • django </p> 
-• MVC
-• Rest-ful APIS
-• Aglue (SRCUM)
-• IDE - Integrated Development Enviroment
-• CodeWars
+• MVC </p> 
+• Rest-ful APIS </p> 
+• Aglue (SRCUM) </p> 
+• IDE - Integrated Development Enviroment </p> 
+• CodeWars </p> 
 
-• int, float, complex, str, bool(bolean), NoneType (special), undefined
-• batteriesincludes - modules (package)
+• int, float, complex, str, bool(bolean), NoneType (special), undefined </p> 
+• batteriesincludes - modules (package) </p> 
 
-• test-driven development
+• test-driven development </p> 
 
-• python advanced contstruct
-• pthon internals
-• MRO, GIL
-• performance testing
+• python advanced contstruct </p> 
+• pthon internals </p> 
+• MRO, GIL </p> 
+• performance testing </p> 
 
-• SQL
-• CRUD
-• databases
-• http basic
-• internet communication protocol
-• Rest-Apis
+• SQL </p> 
+• CRUD </p> 
+• databases </p> 
+• http basic </p> 
+• internet communication protocol </p> 
+• Rest-Apis </p> 
 
-• html, css, JavaScript
-• Visual Studio
-• PEP8 - style guide
-# hashtag
+• html, css, JavaScript </p> 
+• Visual Studio </p> 
+• PEP8 - style guide </p> 
+# hashtag </p> 
 
 
 ```Py
