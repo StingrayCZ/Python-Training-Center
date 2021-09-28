@@ -1,3 +1,4 @@
+```Py
 # By DUZA 2021
 
 import xlwt
@@ -1088,3 +1089,4 @@ for indexrow in range(maxdni):
 
 
 kniha.save('dochazka_'+menopriezvisko +'_'+ str(rok) +'.xls')
+```
