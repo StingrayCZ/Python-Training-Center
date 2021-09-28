@@ -1,5 +1,39 @@
 ## 1st Lesson SDA
 
+• basic data structures
+• bite-sized examples
+
+**Framework**
+• django
+• MVC
+• Rest-ful APIS
+• Aglue (SRCUM)
+• IDE - Integrated Development Enviroment
+• CodeWars
+
+• int, float, complex, str, bool(bolean), NoneType (special), undefined
+• batteriesincludes - modules (package)
+
+• test-driven development
+
+• python advanced contstruct
+• pthon internals
+• MRO, GIL
+• performance testing
+
+• SQL
+• CRUD
+• databases
+• http basic
+• internet communication protocol
+• Rest-Apis
+
+• html, css, JavaScript
+• Visual Studio
+• PEP8 - style guide
+# hashtag
+
+
 ```Py
 for x in range(10):
     print(x)
