@@ -545,3 +545,15 @@ while i >= 10:  # while this codition up here is true
 
 print("Done with loop")
 ```
+
+```Py
+swag = True
+i = 0
+
+while swag:
+    i += 1
+    print(str(swag) + (" ") + str(i))
+
+    if i == 5:
+        swag = False
+```
