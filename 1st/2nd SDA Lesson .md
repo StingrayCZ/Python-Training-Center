@@ -1,7 +1,7 @@
 ## 1st Lesson SDA
 
-• basic data structures
-• bite-sized examples
+• basic data structures </p> 
+• bite-sized examples </> 
 
 **Framework**
 • django </p> 
