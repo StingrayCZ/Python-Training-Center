@@ -28,3 +28,14 @@ if PrimeTest(num) == True:
 else:
     print("Neni prvocislo")
 ```
+
+```Py
+lst = []
+lst = list(range(10))
+
+lst = lst[0: ]
+#lst.remove(0)
+#lst = lst
+
+print(lst)
+```
