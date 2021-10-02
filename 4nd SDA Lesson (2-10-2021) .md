@@ -69,3 +69,42 @@ print(suma)
 
 
 ```
+
+```Py
+
+
+
+lst = []
+lst = list(range(10))
+
+lst = lst[0: ]
+#lst.remove(0)
+#lst = lst
+
+print(lst)
+
+suma = 0
+
+for n in lst:
+    suma = suma + n
+
+print(suma)
+
+lst = list(range(10,20))
+print(lst)
+
+suma = 0
+
+for i in range(len(lst)):
+    suma += lst[i] #suma = suma + lst[1]
+
+print(suma)
+
+def suma_2(lst):
+    suma = 0
+    for n in lst:
+        suma_2 = suma + n
+    return suma
+print(suma_2)
+
+```
