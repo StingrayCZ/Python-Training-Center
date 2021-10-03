@@ -61,7 +61,7 @@ for i in range(number -1, 0, -1):
 print(lst)
 ```
 
-# Example of Procedure
+## Example of Procedure
 
 Function without a input
 ```Py
