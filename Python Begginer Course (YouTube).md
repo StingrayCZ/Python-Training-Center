@@ -558,7 +558,7 @@ while swag:
         swag = False
 ```
 
-## Main.py & other.py
+## Main.py & other.py (import, multiple file code structure)
 
 ```Py
 # MAIN.py
