@@ -108,3 +108,22 @@ def suma_2(lst):
 print(suma_2)
 
 ```
+
+# Trénování if, elif, else... 
+
+```Py
+def kolik_vajicek(pocet_vajicek):
+
+    if pocet_vajicek == 1:
+        return("vajicko")
+
+    elif pocet_vajicek > 1 and pocet_vajicek < 5:
+        return("vajicka")
+
+    else:
+        return ("vajicek")
+
+num = (int(input("Napis pocet kusu: \n")))
+
+print("Pocet " + kolik_vajicek(num) + " je " + str(num))
+```
