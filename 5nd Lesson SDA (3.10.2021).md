@@ -44,3 +44,19 @@ for i in range(num):
 for i in range(num, 0, -1):
     print(i * "*")
 ```
+
+## Plnění stringu
+
+```Py
+number = int(input("Write a number"))
+
+lst = []
+
+for i in range(0, number + 1):
+    lst.append(i)
+
+for i in range(number -1, 0, -1):
+    lst.append(i)
+
+print(lst)
+```
