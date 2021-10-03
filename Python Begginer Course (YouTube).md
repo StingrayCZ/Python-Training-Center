@@ -589,7 +589,7 @@ def app_test_second(a, b):
     return(a * b)
 ```
 
-## Building a Guessing Game
+## Formating text
 
 ```Py
 secrete_
@@ -606,4 +606,17 @@ secrete_
 \n – newline
 \s – space
 \t – tab
+```
+
+## Building a Guessing Game
+
+```Py
+secrete_words = "giraffe"
+
+guess = ""
+
+while guess != secrete_words:
+    guess = input("Enter guess: ")
+
+print("You win!")
 ```
