@@ -71,3 +71,11 @@ def procedure():
 
 procedure()
 ```
+
+## Metoda zápisy proměnných
+
+```Py
+a, b, c, d = 25, 5, 9, 6
+
+print(c)
+```
