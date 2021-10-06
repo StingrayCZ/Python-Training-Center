@@ -4,6 +4,12 @@
 
 <a href="https://pythonremotecz5.zone.sdacademy.pro/schedule/">Time Schedule</a>
 
+<a href="https://python.en.sdacademy.pro/slides/">Slides</a>
+
+<a href="https://python.en.sdacademy.pro/exercises/">Excercise</a>
+
+## Other
+
 <a href="https://www.python.org/dev/peps/pep-0008/">PEP8 Style</a>
 
 <a href="https://leetcode.com/?fbclid=IwAR1RnTn7jI7WSu8hX4Sp_BOPe-FGbuno1pjSZvENd0Pooz1PN3xl475kA38">LeetCode</a>
