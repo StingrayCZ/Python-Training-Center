@@ -17,7 +17,7 @@ pruzkum(0)
 ```
 
 <p float="left">
-  <img src="Photos/Recursion.PNG" width="900" />
+  <img src="Photos/Recursion.PNG" width="750" />
     
 
 Python si nadefinuje funkci pruzkum
