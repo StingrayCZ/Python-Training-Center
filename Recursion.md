@@ -1,5 +1,7 @@
 # Recursion
 
+Zdroj: <a href="https://naucse.python.cz/lessons/beginners/recursion/">Rekurze</a>
+
 ```Py
 def pruzkum(hloubka):
     print(f'Rozhlížím se v hloubce {hloubka} m')
@@ -21,20 +23,31 @@ pruzkum(0)
     
 
 • Python si nadefinuje funkci pruzkum </p>
-Zavolá funkci pruzkum s hloubkou 0:
-Vypíše Rozhlížím se v hloubce 0 m
-Zkontroluje, že 0 ≥ 30 (což neplatí)
-Vypíše Zanořuju se (z 0 m)
-Zavolá funkci pruzkum s hloubkou 10 m:
-Vypíše Rozhlížím se v hloubce 10 m
-Zkontroluje, že 10 ≥ 30 (což neplatí)
-Vypíše Zanořuju se (na 10 m)
-Zavolá funkci pruzkum s hloubkou 20 m:
-Zkontroluje, že 20 ≥ 30 (což neplatí)
-Vypíše Zanořuju se (na 20 m)
-Zavolá funkci pruzkum s hloubkou 30 m:
-Zkontroluje, že 30 ≥ 30 (což platí! konečně!)
-Vypíše Už toho bylo dost! a skončí
-Vypíše Vynořuju se (na 20 m)
-Vypíše Vynořuju se (na 10 m)
-Vypíše Vynořuju se (na 0 m)
+Zavolá funkci pruzkum s hloubkou 0: </p>
+Vypíše Rozhlížím se v hloubce 0 m </p>
+Zkontroluje, že 0 ≥ 30 (což neplatí) </p>
+Vypíše Zanořuju se (z 0 m) </p>
+Zavolá funkci pruzkum s hloubkou 10 m: </p>
+Vypíše Rozhlížím se v hloubce 10 m </p>
+Zkontroluje, že 10 ≥ 30 (což neplatí) </p>
+Vypíše Zanořuju se (na 10 m) </p>
+Zavolá funkci pruzkum s hloubkou 20 m: </p>
+Zkontroluje, že 20 ≥ 30 (což neplatí) </p>
+Vypíše Zanořuju se (na 20 m) </p>
+Zavolá funkci pruzkum s hloubkou 30 m: </p>
+Zkontroluje, že 30 ≥ 30 (což platí! konečně!) </p>
+Vypíše Už toho bylo dost! a skončí </p>
+Vypíše Vynořuju se (na 20 m) </p>
+Vypíše Vynořuju se (na 10 m) </p>
+Vypíše Vynořuju se (na 0 m) </p>
+
+## Příklad nekonečné rekurze (až do vyčerpání paměti)
+
+```Py
+def rekurzivni_funkce():
+    vysledek = ...
+    rekurzivni_funkce()
+    return vysledek
+
+rekurzivni_funkce()
+```
