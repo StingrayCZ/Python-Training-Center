@@ -20,7 +20,7 @@ pruzkum(0)
   <img src="Photos/Recursion.PNG" width="650" />
     
 
-Python si nadefinuje funkci pruzkum
+• Python si nadefinuje funkci pruzkum </p>
 Zavolá funkci pruzkum s hloubkou 0:
 Vypíše Rozhlížím se v hloubce 0 m
 Zkontroluje, že 0 ≥ 30 (což neplatí)
