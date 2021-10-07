@@ -649,3 +649,24 @@ if out_of_guesses:
 else:
     print("You win!")
 ```
+
+
+```Py
+test_true_false = True
+
+if test_true_false:
+    print("The First Statement")    # Napise toto
+else:
+    print("The Second Statement")
+
+
+```
+
+```Py
+test_true_false = False
+
+if test_true_false:
+    print("The First Statement")
+else:
+    print("The Second Statement")    # Napise toto
+```
