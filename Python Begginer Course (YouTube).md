@@ -622,5 +622,30 @@ print("You win!")
 ```
 
 ```Py
+secrete_words = "giraffe"
 
+guess = ""
+guess_count = 0
+guess_limit = 3
+out_of_guesses = True
+
+# print(bool(out_of_guesses))
+
+# while guess != secrete_words and not(out_of_guesses):
+while guess != secrete_words and (out_of_guesses):
+
+    if guess_count < guess_limit:
+        guess = input("Enter guess: ")
+        guess_count += 1
+    else:
+        # out_of_guesses = True
+        out_of_guesses = False
+
+
+print(bool(out_of_guesses))
+
+if out_of_guesses:
+    print("Out of Guesses, YOU LOSE!")
+else:
+    print("You win!")
 ```
