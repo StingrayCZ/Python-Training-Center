@@ -710,3 +710,17 @@ if a < b or not c > d:
 else:
     print("Second")
 ```
+
+## For Loop
+
+```Py
+# Basic example of the For loop
+
+for i in range(10):
+    print(i)
+```
+
+```Py
+for letter in "Giraffe Academy":
+    print(letter)
+```
