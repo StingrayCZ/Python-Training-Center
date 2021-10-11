@@ -634,6 +634,38 @@ out_of_guesses = True
 # while guess != secrete_words and not(out_of_guesses):
 while guess != secrete_words and (out_of_guesses):
 
+    # print(bool(out_of_guesses))
+
+    if guess_count < guess_limit:
+        guess = input("Enter guess: ")
+        guess_count += 1
+    else:
+        # out_of_guesses = True
+        out_of_guesses = False
+
+
+print(bool(out_of_guesses))
+
+if out_of_guesses:
+    print("You win!")
+else:
+    print("Out of Guesses, YOU LOSE!")
+```
+
+```Py
+# Versiont without "not
+secrete_words = "giraffe"
+
+guess = ""
+guess_count = 0
+guess_limit = 3
+out_of_guesses = True
+
+# print(bool(out_of_guesses))
+
+# while guess != secrete_words and not(out_of_guesses):
+while guess != secrete_words and (out_of_guesses):
+
     if guess_count < guess_limit:
         guess = input("Enter guess: ")
         guess_count += 1
@@ -659,7 +691,6 @@ if test_true_false:
 else:
     print("The Second Statement")
 
-
 ```
 
 ```Py
@@ -669,4 +700,13 @@ if test_true_false:
     print("The First Statement")
 else:
     print("The Second Statement")    # Napise toto
+```
+
+```Py
+a, b, c, d = 15, 10, 2, 4
+
+if a < b or not c > d:
+    print("First")
+else:
+    print("Second")
 ```
