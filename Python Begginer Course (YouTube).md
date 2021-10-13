@@ -716,11 +716,32 @@ else:
 ```Py
 # Basic example of the For loop
 
-for i in range(10):
+for i in range(10):    # Vytiskne cisla 0 az 9
     print(i)
 ```
 
 ```Py
-for letter in "Giraffe Academy":
+for letter in "Giraffe Academy":       # Vytiskne pismena 
     print(letter)
+```
+
+```Py
+
+for letter in ["Jim", "Karen", "Kevin"]:
+    print(letter)
+
+friends = ["Jim", "Karen", "Kevin"]
+
+for name in friends:
+    print(name)
+```
+
+```Py
+for index in range(3, 10):    # Vypise cisla od 3 do 9
+    print(index)
+```
+
+```Py
+for index in range(0, 101, 5):   # Vypise cisla 0, 5, 10, 15, 20... 100
+    print(index)
 ```
