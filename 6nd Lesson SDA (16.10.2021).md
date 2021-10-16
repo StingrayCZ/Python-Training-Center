@@ -88,3 +88,62 @@ class Shelter:
 
     # def pridejZvirato(self. zviratko):
 ```
+
+## 
+  
+```Py
+class Animal:
+
+    def __init__(self, name='Rex', age=2):
+        self.name = name
+        self.age = age
+
+dog_a = Animal()
+dog_b = dog_a
+# nesmysl = dog_b
+nesmysl = Animal()
+
+
+print(dog_a.name)
+print(dog_b.name)
+print(nesmysl)
+
+nesmysl.name = 'Pongo'
+print(dog_a.name)
+print(dog_b.name)  
+``` 
+  
+```Py
+class Animal:
+
+    def __init__(self, name='Rex', age=2):
+        self.name = name
+        self.age = age
+
+    def initials(self):
+        return  f'{self.name,}, {self.age}'
+
+    def copy(self):
+        return Animal(self.name, self.age)
+
+
+dog_a = Animal()
+dog_a.name = 'Arex'
+dog_b = dog_a
+dog_a_copy = dog_b.copy()
+# nesmysl = dog_b
+nesmysl = Animal()
+
+
+print(dog_a)
+print(dog_b)
+print(dog_a_copy)
+print(nesmysl)
+
+nesmysl.name = 'Pongo'
+print(dog_a.initials())
+print(dog_b.name)
+print(dog_a_copy.initials())
+print(nesmysl.name)  
+  
+```  
