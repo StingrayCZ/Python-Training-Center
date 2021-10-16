@@ -19,7 +19,42 @@ Ke každému úkolu použijte alespoň jednu funkci, která bude vracet nějakou
 **Příklady importu**
   
 ```Py
-imnport math as matika
+import math as matika
+import math as factorial, sqrt
+```
+
+```Py
+# vsechny funkce v knihovne math
+import math
+print(dir(math))
+```
   
+## Objects
   
+```Py
+
+class Car:
+    def __init__(self, znacka, typ):
+        self.znacka = znacka
+        self.typ = typ
+        self.SPZ = ''
+
+    def getZnacka(self):
+        return self.znacka
+
+    def getTyp(self):
+        return self.typ
+
+    def getSPZ(self):
+        return self.SPZ
+
+znacka, typ = 'Skoda', 'Octavia'
+moje_auto = Car(znacka, typ)
+print(moje_auto.getZnacka())
+
+znacka, typ = 'VW', 'Tourage'
+moje_auto2 = Car(znacka, typ)
+print(moje_auto2.getZnacka())
+
+print(f'Moje SPZ: {moje_auto2.getSPZ()}')
 ```
