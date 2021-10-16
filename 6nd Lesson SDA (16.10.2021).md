@@ -32,7 +32,6 @@ print(dir(math))
 ## Objects
   
 ```Py
-
 class Car:
     def __init__(self, znacka, typ):
         self.znacka = znacka
@@ -57,4 +56,35 @@ moje_auto2 = Car(znacka, typ)
 print(moje_auto2.getZnacka())
 
 print(f'Moje SPZ: {moje_auto2.getSPZ()}')
+```
+
+  
+```Py
+class Animal:
+    NAME = ""  # class variable
+    AGE = 0  # class variable
+
+    def __init__(self):
+        self.name = "John"  # set the default value for the name field of the Animal class object
+        self.age = 2
+
+    def print_details(self):  # method for printing the state of an object
+        print(f"Name: {self.name}, age: {self.age}.")
+
+
+animal = Animal()
+animal.print_details()
+
+puppy = Animal()
+dog = Animal()
+puppy.age = 1
+puppy.name = "Rex Senior"
+
+print(f'My dog {puppy.name}, {puppy.age} and the older {dog.name}, {dog.age}')
+
+class Shelter:
+    def __init__(self):
+        zviratka= []
+
+    # def pridejZvirato(self. zviratko):
 ```
