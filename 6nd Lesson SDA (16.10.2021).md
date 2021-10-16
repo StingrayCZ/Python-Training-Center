@@ -12,7 +12,7 @@ Ke každému úkolu použijte alespoň jednu funkci, která bude vracet nějakou
 
 
 <p float="left">
-  <img src="Photos/HW 16-10-2021" width="900" />
+  <img src="Photos/HW 16-10-2021.png" width="900" />
 
 ```Py
 print(ahoj)
