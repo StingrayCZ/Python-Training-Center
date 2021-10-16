@@ -11,6 +11,8 @@
 Ke každému úkolu použijte alespoň jednu funkci, která bude vracet nějakou hodnotu. Tedy funkce nebude vypisovat výsledek, ale bude výsledek vracet jako proměnnou, která se následně vypíše do konzole. Všechny úkoly jsou dobrovolné.
 
 
+<p float="left">
+  <img src="Photos/HW 16-10-2021" width="900" />
 
 ```Py
 print(ahoj)
