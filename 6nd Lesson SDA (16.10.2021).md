@@ -14,6 +14,12 @@ Ke každému úkolu použijte alespoň jednu funkci, která bude vracet nějakou
 <p float="left">
   <img src="Photos/HW 16-10-2021.png" width="500" />
 
+## Modules
+
+**Příklady importu**
+  
 ```Py
-print(ahoj)
+imnport math as matika
+  
+  
 ```
