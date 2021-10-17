@@ -798,7 +798,7 @@ for name in friends:
 ```Py
 friends = ["Jim", "Karen", "Kevin"]   
 
-for name in range (len(friends)):    # len - pocet poli
+for name in range (len(friends)):    # len - pocet v listu
     print(friends[name])
 
 ```
@@ -812,3 +812,5 @@ for index in range(3, 10):    # Vypise cisla od 3 do 9
 for index in range(0, 101, 5):   # Vypise cisla 0, 5, 10, 15, 20... 100
     print(index)
 ```
+
+## 
