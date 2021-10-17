@@ -761,7 +761,7 @@ if a > b and not c < d:       # Second
 ```Py
 a, b, c, d = 15, 10, 2, 4
 if a < b or c > d:       # Second
-if a < b or c < d:       # First
+if a < b or not c > d:       # First
 ```
 
 ```Py
