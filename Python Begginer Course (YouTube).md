@@ -796,9 +796,9 @@ for name in friends:
 ```
 
 ```Py
-friends = ["Jim", "Karen", "Kevin"]
+friends = ["Jim", "Karen", "Kevin"]   
 
-for name in range (len(friends)):
+for name in range (len(friends)):    # len - pocet poli
     print(friends[name])
 
 ```
