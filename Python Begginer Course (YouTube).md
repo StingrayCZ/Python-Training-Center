@@ -702,10 +702,45 @@ else:
     print("The Second Statement")    # Napise toto
 ```
 
+## And, Or, NAnd, NOr
+
 ```Py
 a, b, c, d = 15, 10, 2, 4
 
 if a < b or not c > d:
+    print("First")
+else:
+    print("Second")
+```
+
+```Py
+a, b, c, d = 15, 10, 2, 4
+
+''' AND ''' 
+# if a < b and c > d:       # Second
+# if a > b and c > d:       # Second
+# if a > b and c < d:       # First
+# if a < b and c < d:       # Second
+
+''' NAND ''' 
+# if a < b and not c > d:       # Second
+# if a > b and not c > d:       # First
+# if a > b and not c < d:       # Second
+# if a < b and not c < d:       # Second
+
+''' OR ''' 
+# if a < b or c > d:       # Second
+# if a > b or c > d:       # First
+# if a > b or c < d:       # First
+# if a < b or c < d:       # First
+
+''' NOR ''' 
+# if a < b or not c > d:       # First
+# if a > b or not c > d:       # First
+# if a > b or not c < d:       # First
+# if a < b or not c < d:       # Second
+
+
     print("First")
 else:
     print("Second")
