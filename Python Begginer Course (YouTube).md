@@ -796,6 +796,14 @@ for name in friends:
 ```
 
 ```Py
+friends = ["Jim", "Karen", "Kevin"]
+
+for name in range (len(friends)):
+    print(friends[name])
+
+```
+
+```Py
 for index in range(3, 10):    # Vypise cisla od 3 do 9
     print(index)
 ```
