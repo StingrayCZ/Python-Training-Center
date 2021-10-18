@@ -813,4 +813,4 @@ for index in range(0, 101, 5):   # Vypise cisla 0, 5, 10, 15, 20... 100
     print(index)
 ```
 
-## 
+## Exponent Function
