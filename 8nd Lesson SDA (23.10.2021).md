@@ -10,3 +10,12 @@ https://semver.org/lang/cs/
 
 ```Py
 pip = package
+
+
+## Import
+
+```Py
+import program.py
+from prog.py import def, def
+from import.py import *         # importuje vsechno
+```
