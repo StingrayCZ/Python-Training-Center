@@ -10,7 +10,7 @@ https://semver.org/lang/cs/
 
 ```Py
 pip = package
-
+```
 
 ## Import
 
