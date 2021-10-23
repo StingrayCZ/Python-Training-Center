@@ -2,3 +2,11 @@
 
 • Python 3.10 </p>
 • PiPy repozitáře </p>
+• PIP - Python installer Python
+
+https://semver.org/lang/cs/
+
+## Instalce baliku
+
+```Py
+pip = package
