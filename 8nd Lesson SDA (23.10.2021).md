@@ -5,6 +5,7 @@
 • PIP - Python installer Python
 
 https://semver.org/lang/cs/
+
 https://www.youtube.com/watch?v=x1cbYa2SSlE
 
 ## Instalce baliku
