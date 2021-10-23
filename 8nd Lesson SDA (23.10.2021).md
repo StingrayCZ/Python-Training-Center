@@ -8,6 +8,8 @@ https://semver.org/lang/cs/
 
 https://www.youtube.com/watch?v=x1cbYa2SSlE
 
+https://www.youtube.com/watch?v=uS57HP09odc
+
 ## Instalce baliku
 
 ```Py
