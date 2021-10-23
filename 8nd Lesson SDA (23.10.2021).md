@@ -19,3 +19,13 @@ import program.py
 from prog.py import def, def
 from import.py import *         # importuje vsechno
 ```
+
+```Py
+if name==__name__
+```
+
+## Import package
+
+```Py
+import my_package.my_fuction as new_name
+```
