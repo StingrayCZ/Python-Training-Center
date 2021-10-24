@@ -55,3 +55,29 @@ class CalculatorTestCase(unittest.TestCase):
 ```Py
 python -m unittest
 ```
+
+
+```Py
+import unittest
+
+import list_analysis
+
+
+class TransformToStringTestCase(unittest.TestCase):
+    def test_transform_list(self):
+        input_data = [1, "a", 10.1]
+        self.assertEqual(
+            list_analysis.transform_items_to_string(input_data),
+            ["1", "a", "10.1"]
+        )
+    
+    def test_transform_not_list(self):
+        self.assertFalse(
+            list_analysis.transform_items_to_string(10)
+        )
+
+    def test_transform_string(self):
+        self.assertFalse(
+            list_analysis.transform_items_to_string("100")
+        )
+```
