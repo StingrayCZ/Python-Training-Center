@@ -33,7 +33,7 @@ class Calculator:
             self.current_value = self.results_history.pop()
             
         # self.current_value = self.results_history.pop() if self.results_history else 0
-        
-    
-    
+       
 ```
+
+Spoustet v Shellu
