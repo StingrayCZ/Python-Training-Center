@@ -37,3 +37,17 @@ class Calculator:
 ```
 
 Spoustet v Shellu
+
+
+```Py
+import unittest
+
+from calculator import Calculator
+
+
+class CalculatorTestCase(unittest.TestCase):
+    def test_init_calculator(self):
+        calculator = Calculator(727)
+        self.assertEqual(calculator.current_value, 727)
+        self.assertEqual(calculator.results_history, [])
+```
