@@ -51,3 +51,7 @@ class CalculatorTestCase(unittest.TestCase):
         self.assertEqual(calculator.current_value, 727)
         self.assertEqual(calculator.results_history, [])
 ```
+
+```Py
+python -m unittest
+```
