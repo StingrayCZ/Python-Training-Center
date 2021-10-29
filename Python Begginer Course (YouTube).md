@@ -814,3 +814,21 @@ for index in range(0, 101, 5):   # Vypise cisla 0, 5, 10, 15, 20... 100
 ```
 
 ## Exponent Function
+
+```Py
+def raise_to_power(base_num, pow_num):
+
+    result = 1
+
+    for index in range(pow_num):
+        result = result * base_num
+        # print(result)              # Kdyz je a 25**3, tak pocet je 25, 625, 15625
+    return result
+
+
+a = 25
+b = 3
+c = raise_to_power(int(a), int(b))
+
+print(f'Vysledek je {c}')
+```
