@@ -826,8 +826,8 @@ def raise_to_power(base_num, pow_num):
     return result
 
 
-a = 25
-b = 3
+a = int(input('Napis cislo: \n'))
+b = int(input(f'Napis mocnitele: \n'))
 c = raise_to_power(int(a), int(b))
 
 print(f'Vysledek je {c}')
