@@ -166,3 +166,70 @@ class BankAccountTest(unittest.TestCase):
 ## Modules
 
 modul = slozka 
+
+```Py
+import unittest
+
+class Item:
+    def __init__(self, id_: int, name: str):
+        self.id = id_
+        self.name = name
+
+    def __str__(self):
+        return f"#{self.id} {self.name}"
+
+    def __repr__(self):
+        return self.__str__()
+
+class Warehouse:
+    def __init__(self):
+        self._items = []
+
+    def stock(self, item: Item):
+        self._items.append(item)
+
+    def count(self, item_name: str):
+        return len([1 for x in self._items if x.name == item_name])
+        # return len(list(filter(lambda x: x.name == item_name, self._items)))
+
+    def unstock_id(self, id: int):
+        found_item = None
+        for item in self._items:
+            if item.id == id:
+                found_item = item
+                self._items.remove(found_item)
+                break
+            
+        return found_item
+
+    def unstock_name(self, item_name: str):
+        found_items = []
+        for item in self._items:
+            if item.name == item_name:
+                found_items.append(item)
+                self._items.remove(item)
+
+        return found_items
+
+    def inventory(self):
+        inventory = {}
+        for item in self._items:
+            if item.name in inventory:
+                inventory[item.name] += 1
+            else:
+                inventory[item.name] = 1
+
+        return inventory
+
+    def item_names(self):
+        return [item.name for item in self._items]
+
+
+class WarehouseTestCase(unittest.TestCase):
+    def setUp(self):
+        self.wh = Warehouse()
+        self.item = Item(1, "Sroubovak")
+    
+    def test_stock_item(self):
+        pass
+```
