@@ -1,5 +1,9 @@
 # 11th Lesson SDA (31.10.2021)
 
+• testovani </p>
+• mockovani </p>
+
+
 ```Py
 import unittest
 
