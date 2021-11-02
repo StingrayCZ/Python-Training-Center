@@ -973,11 +973,11 @@ Reading form external files
 ```Py
 employee_file = open("employees.txt", "r")
 
-# print(employee_file.readable())     # overeni opravneni
-# print(employee_file.read())         # vypise vse
-# print(employee_file.readline())     # vypisuje po radcich
-# print(employee_file.readlines())      # vypise jako pole
-# print(employee_file.readlines()[1])   # vypise urcitz radek
+# print(employee_file.readable())          # overeni opravneni
+# print(employee_file.read())              # vypise vse
+# print(employee_file.readline())          # vypisuje po radcich
+# print(employee_file.readlines())         # vypise jako pole
+# print(employee_file.readlines()[1])      # vypise urcitz radek
 for employee in employee_file.readlines():
     print(employee)
 
@@ -990,3 +990,36 @@ employee_file.close()
 "r+" - reading and wrtting
 '''
 ```        
+
+## Writing to Files
+
+Writing and appending to files
+
+```Py
+# Append
+employee_file = open("employees.txt", "a")           # "a" append
+
+employee_file.write("\nKelly - Customer Service")
+
+employee_file.close()
+```
+
+```Py
+# Write
+
+employee_file = open("employees.txt", "w")
+
+employee_file.write("\nKelly - Customer Service")     # overwriting all previous records
+
+employee_file.close()
+
+```
+
+```Py
+# employee_file = open("employees1.txt", "w")     # zmena nazvu = novy soubor
+employee_file = open("index.html", "w")           # zmena formatu (e.g. )
+
+employee_file.write("<p>This is HTML</p>")     # overwriting all previous records
+
+employee_file.close()
+```
