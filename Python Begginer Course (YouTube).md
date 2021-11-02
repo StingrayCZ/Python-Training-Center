@@ -909,8 +909,35 @@ print(translate(input("Enter a phrase: ")))
 
 ```
 
-## Try Except
+## Try Except (cathing errors)
+
+V případě chyby(zadání stringu do integeru), nezastaví běh programu
 
 ```Py
+try:
+    number = int(input("Enter a number: "))
+    print(number)
 
+except:
+    print("invalid input")
+
+print("Continue")
+```
+
+```Py
+# Exception A
+try:
+    number = int(input("Enter a number: "))
+    print(number)
+
+except:
+    print("invalid input")
+
+# Exception B
+try:
+    value = 10 / 0
+except:
+    print("invalid math op")
+
+print("Continue")
 ```
