@@ -1061,3 +1061,9 @@ import useful_tools
 
 print(useful_tools.rool_dice(10))
 ```
+
+## Classes & Objects
+
+```Py
+
+```
