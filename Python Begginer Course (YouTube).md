@@ -1024,5 +1024,40 @@ employee_file.write("<p>This is HTML</p>")     # overwriting all previous record
 employee_file.close()
 ```
 
-# Modules and PIP
+## Modules and PIP
 
+```Py
+# Random number
+import random
+
+def rool_dice(num):
+
+    print(c)
+    return random.randint(1, num)
+
+num = 551
+print(roll_dice(num))
+```
+
+```Py
+# useful_tools.py
+import random
+
+feet_in_mile = 5280
+meters_in_kilometers = 1000
+beatles = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"]
+
+
+def get_file_ext(filename):
+    return filename[filename.index(".")+1:]
+
+def rool_dice(num):
+    return random.randint(1, num)
+```
+
+```Py
+# Main.py
+import useful_tools
+
+print(useful_tools.rool_dice(10))
+```
