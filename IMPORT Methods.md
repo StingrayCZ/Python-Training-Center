@@ -34,3 +34,16 @@ print(result_fact)
 result_sqrt = round(novy_nazev_B(25))  # Calculates the square root of 16
 print(result_sqrt)
 ```
+
+-------------------------------------------------
+Import všeho
+
+```Py
+from math import*
+
+result_fact = factorial(5)  # Calculates the factorial of 5
+print(result_fact)
+
+result_sqrt = sqrt(16)  # Calculates the square root of 16
+print(result_sqrt)
+```
