@@ -55,3 +55,19 @@ print(battle("JJ109810", "222KKK"))
 print(battle("AKAKQ10", "AAAAAA"))
 print(battle("876543", "1010101022"))
 ```
+
+```Py
+import csv
+import json
+
+data = [
+    ["jmeno", "prijmeni", "mesto"],
+    ["petr", "sevcik", "brno"],
+    ["john", "snow", "nightwatch"],
+    ["jaromir", " jagr", " kladno"],
+]
+
+with open("lide.csv", "w") as file_lide:
+    csv_file = csv.writer(file_lide)
+    csv_file.writerows(data)
+```
