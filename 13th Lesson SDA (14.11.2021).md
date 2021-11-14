@@ -147,3 +147,40 @@ with open('students.json', "w") as file:
   }
 ]
 ```
+
+## CSV (Comma Separate Values)
+```Py
+import csv
+from pprint import pprint   #pretty print
+
+with open("test_flights.csv", "r") as file:
+    reader = csv.reader(file)
+    pprint(list(reader))
+    # print(reader)
+
+    for let in reader:
+        print(let)
+
+nadpis = ["odkud","kam","cas_odletu","cas_priletu","cislo_letu","cena","kufry","cena_kurfu"]
+slozeny_list = [
+    ["USM","HKT","2017-02-12T12:15:00","2017-02-12T13:15:00","PV755","23","2","9"],
+    ["HKT","DPS","2017-02-12T14:35:00","2017-02-12T16:30:00","PV996","23","1","15"],
+    ["DPS","HKT","2017-02-13T00:00:01","2017-02-13T03:40:00","PV961","70","1","39"],
+    ["HKT","USM","2017-02-13T06:10:00","2017-02-13T08:30:00","PV953","48","1","25"]
+]
+
+konec = ["odkud","kam","cas_odletu","cas_priletu","cislo_letu",str(88),"kufry","cena_kurfu"]
+
+
+with open("lety", "w") as file:
+    writer = csv.writer(file)
+    writer.writerows(slozeny_list)
+
+# ukol vytvorte
+
+with open("lety_SDA.csv", "w") as file:
+        writer = csv.writer(file)
+        writer.writerows(nadpis)
+        writer.writerow(slozeny_list)
+        writer.writerow(konec)
+```
