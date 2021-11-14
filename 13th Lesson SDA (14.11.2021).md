@@ -275,3 +275,70 @@ cas_letu_dva = dt.datetime.strptime(let1[2], "%Y-%m-%dT%H:%M:%S")
 delta = cas_letu_dva - cas_letu_jedna
 print(delta)
 ```
+
+Tutuor ver
+```Py
+import csv
+import datetime as dt
+
+
+from pprint import pprint
+
+
+def start(file):
+    with open(file, "r") as file:
+        reader = csv.reader(file)
+        flights = list(reader)
+        flights.pop(0)  # odstranění prvního řádku
+    return flights
+
+
+def sort_flights(flights):
+    flights.sort(key=lambda x: x[2])
+    return flights
+
+def is_connecting(flight1, flight2):
+    if flight1[1] == flight2[0]:
+        return True
+    return False
+
+
+def count_flight_price(flight1, flight2):
+    total_price = int(flight1[5]) + int(flight2[5])
+    return total_price
+
+
+def time_window(flight1, flight2):
+    arrival_time_flight1 = dt.datetime.strptime(flight1[3], '%Y-%m-%dT%H:%M:%S')
+    departure_time_flight2 = dt.datetime.strptime(flight2[2], '%Y-%m-%dT%H:%M:%S')
+    delta = departure_time_flight2 - arrival_time_flight1
+    if dt.timedelta(minutes=59) < delta < dt.timedelta(hours=4, minutes=1):
+        return True
+    return False
+
+
+def making_pair(flights):  # odkud, přes_co, kam, čas_odletu letu1, čas_priletu letu2, celkovou cenu
+    combinations = []
+    for flight1 in flights:
+        for flight2 in flights:
+            if is_connecting(flight1, flight2) and time_window(flight1, flight2):
+                price = count_flight_price(flight1, flight2)
+
+                new_combination = [
+                    flight1[0],
+                    flight1[1],
+                    flight2[1],
+                    flight1[2],
+                    flight2[3],
+                    price
+                ]
+                combinations.append(new_combination)
+    return combinations
+    
+    
+    
+input_data = start("flights.csv") #proměná - složený list z daty z csv souboru bez nadpisů
+ser_data = sort_flights(input_data)
+result = making_pair(ser_data)
+
+```
