@@ -184,3 +184,94 @@ with open("lety_SDA.csv", "w") as file:
         writer.writerow(slozeny_list)
         writer.writerow(konec)
 ```
+
+## Kombinator letu
+
+```Py
+import csv
+from pprint import pprint  # pretty print
+import datetime as dt
+
+"""
+Postup:
+1) Seradit lety podle data odletu s pomoci datetime
+2) let1=[] let2=[] - lety musi navazovat - letiste se musi rovnat
+
+a) nacist data z csv filu do slozeneho listu bez nadpisu
+b) jestli let 1 a 2 navazuje
+c) jestli je casove rozmezi mezi lety pri 1 az 4 hodiny
+d) spocitat celkovou cenu dvou letu
+5) vytvorit kombinace + dat jim nejaky format (slozeny)
+6) zapsat data do csv filu
+"""
+
+
+def start(file):
+    with open(file, "r") as file:
+        reader = csv.reader(file)
+        flight = list(reader)
+        flight.pop(0)  # odstraneni prvniho radku
+    return flight
+
+
+# print(start("test_flights.csv"))
+flights = (start("test_flights.csv"))
+for flight in flights:
+    print(flight)
+
+let1 = ['USM', 'HKT', '2017-02-12T12:15:00', '2017-02-12T13:15:00', 'PV755', '23', '2', '9']
+let2 = ['DPS', 'HKT', '2017-02-13T00:00:01', '2017-02-13T03:40:00', 'PV961', '70', '1', '39']
+
+
+def sort_flight(flights):
+    flights.sort(key=lambda x: x[2])
+
+
+def is_connecting(flight1, flight2):
+    if flight1[0] == flight2[1]:
+        return True
+    return False
+
+
+def count_flight_price(flight1, flight2):
+    total_price = int(flight1[5]) + int(flight2[5])
+    return total_price
+
+
+def time_widow(flight1, flight2):
+    td1 = dt.datetime.strptime(flight1[3], "%Y-%m-%dT%H:%M:%S")
+    td2 = dt.datetime.strptime(flight2[2], "%Y-%m-%dT%H:%M:%S")
+    delta = td2 - td1
+
+    if dt.timedelta(minutes=59) < delta < dt.timedelta(hour=4, minutes=1):
+        return True
+    return False
+
+
+def maiking_pair(flights):
+    combinations = []
+    for flight1 in flights:
+        for flight2 in flight:
+            if is_connecting(flights1, flights2) and time_widow(flight1, flight2):
+                price = count_flight_price(flight1, flight2)
+                new_combination = [
+                    flight1[0],
+                    flight1[1],
+                    flights2[1],
+                    flight1[2],
+                    flight2[3],
+                    price
+                ]
+                combinations.append(new_combination)
+    return combinations
+
+
+# TEST
+print(is_connecting(let1, let2))
+print(count_flight_price(let1, let2))
+#
+cas_letu_jedna = dt.datetime.strptime(let1[3], "%Y-%m-%dT%H:%M:%S")
+cas_letu_dva = dt.datetime.strptime(let1[2], "%Y-%m-%dT%H:%M:%S")
+delta = cas_letu_dva - cas_letu_jedna
+print(delta)
+```
