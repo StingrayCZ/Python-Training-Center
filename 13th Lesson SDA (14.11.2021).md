@@ -81,3 +81,69 @@ print(json_data)
 with open('students.json', "w") as file:
     json.dump(student_data, file)
 ```
+
+## JSON file.json
+```json
+[
+  {
+    "id": 12,
+    "name": "Jeremiah Mullen",
+    "email": "newmanelizabeth@example.net",
+    "country": "Somalia"
+  },
+  {
+    "id": 72,
+    "name": "Beth Wilson",
+    "email": "sfoster@example.net",
+    "country": "Germany"
+  },
+  {
+    "id": 57,
+    "name": "Brett Bernard",
+    "email": "moniquepollard@example.net",
+    "country": "Zimbabwe"
+  },
+  {
+    "id": 4,
+    "name": "Vanessa White",
+    "email": "bishopshelia@example.net",
+    "country": "Haiti"
+  },
+  {
+    "id": 57,
+    "name": "Robert Romero",
+    "email": "evelyn17@example.com",
+    "country": "Cambodia"
+  },
+  {
+    "id": 62,
+    "name": "Alyssa Harris",
+    "email": "ellistimothy@example.com",
+    "country": "Dominican Republic"
+  },
+  {
+    "id": 47,
+    "name": "Shelby White",
+    "email": "krista13@example.org",
+    "country": "Rwanda"
+  },
+  {
+    "id": 32,
+    "name": "Brian Vazquez",
+    "email": "smithjorge@example.org",
+    "country": "Kazakhstan"
+  },
+  {
+    "id": 66,
+    "name": "Mariah Carrillo",
+    "email": "jessicagreen@example.net",
+    "country": "Korea"
+  },
+  {
+    "id": 90,
+    "name": "Eric Brown",
+    "email": "robert67@example.net",
+    "country": "Martinique"
+  }
+]
+```
