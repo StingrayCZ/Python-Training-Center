@@ -2,9 +2,9 @@
 
 • funkce </p>
 • malinko nakousneme i funkce vyssich radu </p>
-• seznamy, iteratory, generatory
-• dekoratory
-• lambdy (viz bod 1)
-• planovac letu (mini Kiwi)
+• seznamy, iteratory, generatory </p>
+• dekoratory </p>
+• lambdy (viz bod 1) </p>
+• planovac letu (mini Kiwi) </p>
 
 ## Kiw
