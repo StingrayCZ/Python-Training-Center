@@ -2,6 +2,9 @@
 
 • [Typing lib] https://docs.python.org/3/library/typing.html
 
+<p float="left">
+  <img src="Photos/Reseni Adela.PNG" width="900" />
+
 
 ```Py
 from __future__ import annotations
