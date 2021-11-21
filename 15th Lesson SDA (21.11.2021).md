@@ -1,6 +1,6 @@
 # 15th Lesson SDA (21.11.2021)
 
-• https://docs.python.org/3/library/typing.html
+• [Typing lib] https://docs.python.org/3/library/typing.html
 
 
 ```Py
