@@ -398,3 +398,127 @@ def number_of_bags_allowed(flight: dict, bags: int) -> bool:
 ```
 """
 ```
+
+## Dnesni codeni
+
+```Py
+def number_of_bags_allowed_v1(flight: dict, bags: int) -> bool:
+    # Implementace 1
+    if bags < 0:
+        return False
+    if bags <= flight["bags_allowed"]:      
+        return True       
+    else:      
+        return False      
+        
+      
+def number_of_bags_allowed_v2(flight: dict, bags: int) -> bool:      
+    if bags <= flight["bags_allowed"] and bags >= 0:      
+        return True      
+    else:      
+        return False    
+    
+    
+def number_of_bags_allowed_v3(flight: dict, bags: int) -> bool:    
+    # Pythoni zpusob na dotaz, jestli je `x` v intervalu [a, b]    
+    # if a <= x <= b:    
+    #   ....    
+    if 0 <= bags <= flight["bags_allowed"]:    
+        return True    
+    else:    
+        return False    
+    
+                             
+print(parsed_records[10])                                  
+print(number_of_bags_allowed_v2(parsed_records[10], 5))
+print(number_of_bags_allowed_v2(parsed_records[10], 1))
+print(number_of_bags_allowed_v2(parsed_records[10], 0))
+print(number_of_bags_allowed_v2(parsed_records[10], -2))
+
+
+# V Pythonu jsou pole velmi flexibilni a mohou obsahovat uplne                
+# cokoliv                                                               
+my_list = ["abcd", 1, "efg", {"Ahoj": "cau"}, None, [1, 2, 3]]                                     
+print(my_list)                                                          
+print(my_list[1])  # cislo 1                                                                  
+print(my_list[2][0])  # 1. pismeno retezce "efg"
+
+
+# Nekde ve funkci total_flight_price bude tento radek
+raise ValueError("Invalid number of bags!")
+
+
+def total_flight_price_v1(flight: dict, bags: int) -> int:
+    if number_of_bags_allowed_v1(flight, bags):
+        # Nemusi zde byt prirazeni do promenne    
+        # return flight["price"] + flight["bag_price"] * bags    
+        total_price = flight["price"] + flight["bag_price"] * bags    
+        return total_price    
+    else:    
+        raise ValueError("Invalid number of bags!")    
+    
+    
+def total_flight_price_v2(flight: dict, bags: int) -> int:    
+    if number_of_bags_allowed_v1(flight, bags):    
+        # Nemusi zde byt prirazeni do promenne    
+        # return flight["price"] + flight["bag_price"] * bags    
+        total_price = flight["price"] + flight["bag_price"] * bags    
+        return total_price    
+                                                                                 
+    raise ValueError("Invalid number of bags!")      
+                                                                                                          
+                                         
+def total_flight_price_v3(flight: dict, bags: int) -> int:      
+    if not number_of_bags_allowed_v1(flight, bags):             
+        raise ValueError("Invalid number of bags!")          
+    else:                                                
+        total_price = flight["price"] + flight["bag_price"] * bags
+        return total_price
+
+
+print(total_flight_price_v1(parsed_records[10], 2))
+print(total_flight_price_v2(parsed_records[10], 2))
+print(total_flight_price_v3(parsed_records[10], 2))
+
+try:
+    print(total_flight_price_v1(parsed_records[10], -5))
+except ValueError:
+    print("Nesmyslny dotaz")
+
+# Odkomentujte, pokud chcete videt vyjimku
+# print(total_flight_price_v1(parsed_records[10], -5))
+
+# Co se stane, kdyz budu chytat nespravnou vyjimku?
+# Odkomentujte, pokud chcete videt vyjimky
+# try:
+# print(total_flight_price_v1(parsed_records[10], -5))
+# except TypeError:
+# print("Nesmyslny dotaz")
+
+
+def total_price_v1(flights: list[dict], bags: int) -> int:      
+    total_price = 0      
+    for flight in flights:      
+        total_price += total_flight_price_v1(flight, bags)      
+    return total_price      
+      
+      
+def total_price_v2(flights: list[dict], bags: int) -> int:      
+    flight_prices = []      
+    for flight in flights:      
+        flight_prices.append(total_flight_price_v1(flight, bags))      
+      
+    return sum(flight_prices)           
+                                          
+                                          
+first_and_fifth_flights = [parsed_records[0], parsed_records[4]]      
+pprint(first_and_fifth_flights)           
+                                          
+print(total_price_v1(first_and_fifth_flights, 1))      
+print(total_price_v2(first_and_fifth_flights, 1))      
+                                          
+# Pocet zavazadel musi byt povoleny pro **vsechny** lety    
+# odkomentujte pro vyjimku                                                                                                                                   
+# print(total_price_v2([parsed_records[0], parsed_records[1]], 2))
+
+```
