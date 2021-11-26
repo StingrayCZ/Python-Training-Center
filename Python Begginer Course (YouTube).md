@@ -1032,7 +1032,6 @@ import random
 
 def rool_dice(num):
 
-    print(c)
     return random.randint(1, num)
 
 num = 551
