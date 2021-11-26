@@ -39,7 +39,7 @@ print(hex(id(person)))  #0xa450e8
 
 ```Py
 
-""" MUTABLE"""
+""" IMMUTABLE"""
 x = 10
 print(x)
 print(hex(id(x))) #0x6a39f840
