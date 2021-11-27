@@ -21,3 +21,12 @@
 <a href="https://www.jetbrains.com/academy/">JetBrains</a>
 
 <a href="https://pythontutor.com/">Python Tutor</a>
+
+# Others
+<a href="https://python.plainenglish.io/25-interesting-python-lines-of-code-733f5b2956b6">25 Interesting Python Codes to Solve Complex Tasks: Part 1</a>
+
+<a href="https://python.plainenglish.io/13-advanced-snippets-to-automate-the-cool-stuff-with-python-5d8ea3d389e9">13 Advanced Snippets to Automate the Cool Stuff with Python</a>
+
+<a href="https://medium.com/@mohankrishnagupta/python-best-practices-4ad47c81b9bc">Python Best Practices</a>
+
+<a href="https://www.programiz.com/python-programming/datetime">Python datetime</a>
