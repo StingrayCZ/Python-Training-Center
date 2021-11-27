@@ -32,3 +32,39 @@ print(preklad)
 print(preklad["translations"][0]["text"])
 
 ```
+
+```Py
+import  requests
+import json
+
+# deepl_api_key = "224dd4fb-9c29-8ee9-759a-a71057134c5d:fx"
+# deepl_url = "https://api-free.deepl.com/v2/translate"
+
+"""
+https://www.deepl.com/docs-api/
+"""
+
+def translate(text, target_lang, source_lang=None):
+    deepl_api_key = "224dd4fb-9c29-8ee9-759a-a71057134c5d:fx"
+    deepl_url = "https://api-free.deepl.com/v2/translate"
+
+    parametry = {
+        "auth_key": deepl_api_key,
+        "text": text,
+        "target_lang": target_lang
+    }
+
+    if source_lang:
+        parametry.update({"source":source_lang})
+
+    # return requests.get(url=deepl_url, params=parametry).json()
+    preklad = requests.get(url=deepl_url, params=parametry).json()
+    return preklad["translations"][0]["text"]
+
+text_test = "Kiwi neni zelenina"
+jazyk = "EN"
+
+translator_test = translate(text_test, jazyk, "CS")
+
+print(translator_test)
+```
