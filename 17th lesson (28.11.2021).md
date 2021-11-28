@@ -102,3 +102,34 @@ print(na_treti)
 sude_liche = ["sudé" if x%2 == 0 else "liché" for x in na_treti]
 print(sude_liche)
 ```
+
+```Py
+cisla = [44,54,64,74,104]
+#prictete ke kazdemu cislu 6
+plus_sest = [x+6 for x in cisla]
+print(plus_sest)
+
+cars_kilos ={"Skoda": 1500, "Kodiaq": 2000, "Pickup": 2500, "Man": 16000, "Van": 2400, "Semi": 13600, "Bicycle": 7, "Motorcycle": 110}
+#vytvorte list se jmeny aut s váhou do 2500kg
+# car_names_up_to_2500 = filter(lambda x: x < 2500, cars_kilos)
+car_names_up_to_2500 = [car for car in cars_kilos if cars_kilos[car]<2500]
+print(car_names_up_to_2500)
+
+
+akcie = ["Face", "KOFOLA", "MONETA", "CEZ", "AAPL"]
+cena = [100, 130, 160, 299, 120]
+
+#vytvořte dict stocks s key = akcie, value = cena ...{"META":100}
+akcie_cena = {akcie[i]:cena[i] for i in range(len(akcie))}
+print(akcie_cena)
+
+#stocks
+akcie_cena = {stock: price for stock, price in zip(akcie, cena)}
+print(akcie_cena)
+print(type(akcie_cena))
+
+cena = [100, 130, 160, 299, 300]
+set_cena = set(cena)
+print(set_cena)
+print(type(set_cena))
+```
