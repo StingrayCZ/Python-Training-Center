@@ -72,7 +72,7 @@ print(hex(id(tup_b))) #0x2fb36c8
 
 ```
 
-## \*args \*\*Kwargs
+## \*args
 
 ```Py
 """S *arg"""
@@ -98,4 +98,20 @@ def my_sum(my_integers):
 x, y, z = 5, 2, 6
 list = [x, y, z]
 print(my_sum(list))
+```
+
+## \*\*Kwargs
+
+```Py
+def concatenate(**kwargs):
+    result = ""
+    # Iterating over the Python kwargs dictionary
+    # for arg in kwargs.values():
+    for arg in kwargs:
+        print(arg)
+        result += arg
+    return result
+
+print(concatenate(a="Real", b="Python", c="Is", d="Great", e="!"))
+
 ```
