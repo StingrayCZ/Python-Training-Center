@@ -73,3 +73,29 @@ print(hex(id(tup_b))) #0x2fb36c8
 ```
 
 ## \*args \*\*Kwargs
+
+```Py
+"""S *arg"""
+def my_sum(*integers):
+    # print(hex(id(my_integers)))
+    result = 0
+    for x in integers:
+        print(x)
+    # return result
+
+x, y, z = 5, 2, 6
+print(my_sum(x , y , z))
+```
+
+```Py
+"""BEZ *arg"""
+def my_sum(my_integers):
+    result = 0
+    for x in my_integers:
+        result += x
+    return result
+
+x, y, z = 5, 2, 6
+list = [x, y, z]
+print(my_sum(list))
+```
