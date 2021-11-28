@@ -67,3 +67,12 @@ vysledky_testu = [101,85,62,400,123,60,75,81,99]
 uspesni = filter(lambda x: x>100, vysledky_testu)
 print(list(uspesni))
 ```
+
+# List Comprehension
+```Py
+hodnoty = [1,2,3,4,5,6,7,8,9]
+na_treti = [x**3 for x in hodnoty]
+print(na_treti)
+sude_liche = ["sudé" if x%2 == 0 else "liché" for x in na_treti]
+print(sude_liche)
+```
