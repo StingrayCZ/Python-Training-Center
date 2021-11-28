@@ -94,7 +94,7 @@ print(f"Serazeni podle populace:{sorted(mesta_populace, key=lambda x:x[0], rever
 
 ```
 
-# List Comprehension
+## List Comprehension
 ```Py
 hodnoty = [1,2,3,4,5,6,7,8,9]
 na_treti = [x**3 for x in hodnoty]
@@ -105,6 +105,7 @@ print(sude_liche)
 
 ```Py
 cisla = [44,54,64,74,104]
+
 #prictete ke kazdemu cislu 6
 plus_sest = [x+6 for x in cisla]
 print(plus_sest)
@@ -187,4 +188,15 @@ for p in paragraphs:
 pattern = "[AB]?[0-9]{3}[a-zA-Z]{1,3}"
 letadla =re.findall(pattern, text)
 print(letadla)
+```
+
+## Hash function
+
+```Py
+import hashlib
+
+heslo = "topsceret"
+passwd_hash = hashlib.sha3_512(heslo.encode())
+print(len(passwd_hash.hexdigest()))
+print(passwd_hash.hexdigest())
 ```
