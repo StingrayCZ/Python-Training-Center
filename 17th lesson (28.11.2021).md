@@ -68,6 +68,32 @@ uspesni = filter(lambda x: x>100, vysledky_testu)
 print(list(uspesni))
 ```
 
+```Py
+zvirata =["otter", "whale", "goose", "chipmunk", "fox", "sheep", "rabbit", "marten"]
+print(f"Serazeni podle abecedy: {sorted(zvirata)}")
+print(f"Serazeni podle velikosti: {sorted(zvirata, key=lambda x: len(x))}")
+
+mesta_populace =[(19542209, "New York") ,(4887871, "Alabama"), (1420491, "Hawaii"), (626299, "Vermont"), (1805832, "West Virginia"), (39865590, "California")]
+# #1) seradte mesta podle abecedy
+print(f"Serazeni podle abecedy:{sorted(mesta_populace, key=lambda x:x[1])}")
+print(f"Serazeni podle populace:{sorted(mesta_populace, key=lambda x:x[0], reverse=True)}")
+# print(f"Max:{max(mesta_populace, key=lambda x:x[1], reverse=True)}")
+
+# #2) seradte mesta podle populace
+# #3) vyberte mesto s největší a nejmenší populaci
+# podle_max_populace =
+# mesta_podle_abecedy =
+# max_populace
+# programmer = [{'Name':'Mark', 'Programming':'Python', 'Year of Experience': 3},
+#                {'Name':'Nicole', 'Programming':'C', 'Year of Experience': 1},
+#                {'Name':'Jason', 'Programming':'R', 'Year of Experience': 10}]
+# # seradte programatory podle let zkušeností
+# sorted_programmer =
+#
+#
+
+```
+
 # List Comprehension
 ```Py
 hodnoty = [1,2,3,4,5,6,7,8,9]
