@@ -106,8 +106,8 @@ print(my_sum(list))
 def concatenate(**kwargs):
     result = ""
     # Iterating over the Python kwargs dictionary
-    # for arg in kwargs.values():
-    for arg in kwargs:
+    # for arg in kwargs.values():   # Vypise KeyWords: RealPythonIsGreat!
+    for arg in kwargs:              # Vypise Key: abcde
         print(arg)
         result += arg
     return result
