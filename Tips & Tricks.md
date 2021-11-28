@@ -71,3 +71,5 @@ tup_b = [1, 5, 6]
 print(hex(id(tup_b))) #0x2fb36c8
 
 ```
+
+## \*args \*\*Kwargs
