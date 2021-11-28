@@ -159,4 +159,32 @@ regex_vyraz = "[a-zA-Z0-9._]+@[a-zA-Z0-9]+.[a-z]{2,3}"
 vysledek = re.sub()
 ```
 
-<p>Evropský výrobce letadel Airbus vstupuje do nového segmentu, ve kterém dosud vládne Boeing. Dálkový letoun A350 začne vyrábět i v nákladní verzi. Na aerosalonu v Dubaji dnes oznámil  prvního zákazníka: leasingovou společnost Air Lease Corporation.</p>, <p>Nový kontrakt oznámil Airbus jen den poté, co podepsal velkou zakázku na <a href="https://zdopravy.cz/nejvetsi-letecka-zakazka-od-vypuknuti-pandemie-majitel-wizz-airu-objednal-255-a321neo-96692/" rel="noopener" target="_blank">255 nových letadel A321neo pro Indigo Partners</a>. V Dubaji je zatím Airbus v objemu zakázek bezkonkurenčním vítězem.</p>, <p>Airbus s ALC podepsal kontrakt na celkem 111 různých letadel, ze kterých poutá nejvyšší pozornost právě nákladní A350F. Airbus o vývoji takového letounu mluví několik let, dosud pro něj neměl zákazníka.</p>, <p>Na trh nákladní letecké dopravy vstupuje Airbus v době, kdy na trhu chybí až desítky nákladních letadel a Boeing získává nové zakázky, zejména na nákladní 777F nebo i přestavby osobních letadel na nákladní.</p>, <p>ALC dnes oznámily kromě nákladních letadel objednávku na 25 A220-300, 55 A321neo, 20 A321XLR a 4 A330neo. Celkem tak jde o 111 letounů, v Dubaji tak už výrobce podepsal kontrakty na 366 letadel pro komerční využití.</p>, <p><em>„Byli jsme prvními zákazníky Airbusu i pro jiné modelové řady a jsme si jisti, že jsme udělali dobře, když jsme se rozhodli pro nákup A350F,“</em> řekl šéf ALC Steven F Udvar-Hazy. Airbus na trhu vidí potenciál až pro 900 letadel A350F.</p>
+## Download content of html. page
+
+```Py
+import  requests
+from bs4 import BeautifulSoup
+import re
+
+URL = "https://zdopravy.cz/airbus-ma-dalsi-velkou-zakazku-prvni-zakaznik-si-objednal-a350-v-nakladni-verzi-96785/"
+
+text= ""
+response = requests.get(URL)
+soup = BeautifulSoup(response.content, "html.parser")
+# print(soup)
+
+text_field = soup.find("div", id="main-content")
+# print(text_field)
+
+paragraphs = text_field.findChildren("p")
+print(paragraphs)
+
+samotny_text = ""
+for p in paragraphs:
+    text += p.text
+
+
+pattern = "[AB]?[0-9]{3}[a-zA-Z]{1,3}"
+letadla =re.findall(pattern, text)
+print(letadla)
+```
