@@ -1,5 +1,7 @@
 # 17th lesson (28.11.2021)
 
+## Rozcvicka
+
 ```Py
 import math
 
@@ -45,4 +47,23 @@ print(stock_price(akcie,cena))
 cars_kilos ={"Sedan": 1500, "SUV": 2000, "Pickup": 2500, "Minivan": 1600, "Van": 2400, "Semi": 13600, "Combi": 1700, "Roadster": 1110}
 print(light_cars(cars_kilos))
 
+```
+## lambda - anonymn9 funkcelambda xasf
+
+```Py
+lambda x: x*2
+lambda x,y: x+y
+
+nasobeni = lambda x,y: x*y
+print(nasobeni(6,10))
+
+normalize_name = lambda x: x.upper()
+print(normalize_name("Jaromir Baca"))
+
+Note = """
+UKOL 1
+"""
+vysledky_testu = [101,85,62,400,123,60,75,81,99]
+uspesni = filter(lambda x: x>100, vysledky_testu)
+print(list(uspesni))
 ```
