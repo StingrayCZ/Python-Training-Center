@@ -133,3 +133,28 @@ set_cena = set(cena)
 print(set_cena)
 print(type(set_cena))
 ```
+
+## Regex
+
+```Py
+import  re
+
+"""
+muj email je petrsevcik@email.com, SDA má email SDA@seznam.cz
+ALC dnes oznámily objednávku na 25 A220, 55 A321neo, 20 A321XLR a 4 A330neo. Boeing ziskal objednavky na 20 737MAX 10 787 dreamlineru. Neprodal se žádný bombardér B52 ani stíhačka F16.
+"""
+
+text_a = "muj email je petrsevcik@email.com, SDA má email SDA@seznam.cz"
+
+# x = re.findall("[SDA]", text_a)
+# x = re.findall("(..@...)", text_a)
+x = re.findall("\n[A-Z]1a]", "alla, Ola Ela")
+print(x)
+print(len(x))
+
+
+text = "ALC dnes oznámily objednávku na 25 A220, 55 A321neo, 20 A321XLR a 4 A330neo. Boeing ziskal objednavky na 20 737MAX 10 787 dreamlineru. Neprodal se žádný bombardér B52 ani stíhačka F16"
+
+regex_vyraz = "[a-zA-Z0-9._]+@[a-zA-Z0-9]+.[a-z]{2,3}"
+vysledek = re.sub()
+```
