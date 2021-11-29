@@ -48,7 +48,7 @@ cars_kilos ={"Sedan": 1500, "SUV": 2000, "Pickup": 2500, "Minivan": 1600, "Van":
 print(light_cars(cars_kilos))
 
 ```
-## lambda - anonymn9 funkcelambda xasf
+## lambda - anonymní funkce lambda xasf
 
 ```Py
 lambda x: x*2
