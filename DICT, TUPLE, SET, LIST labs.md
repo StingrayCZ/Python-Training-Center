@@ -34,3 +34,43 @@ print(x)
 
 #Result: ['apple', 'banana#cherry#orange']
 ```
+
+## Sorted function
+```Py
+a = sorted("This is a test string from Andrew".split(), key=str.lower)
+print(a)
+#Result: ['a', 'Andrew', 'from', 'is', 'string', 'test', 'This']
+
+b = sorted("This is a test string from Andrew".split(), key=str.upper)
+print(b)
+#Result: ['a', 'Andrew', 'from', 'is', 'string', 'test', 'This']
+```
+
+ ## Python ZIP
+ In this tutorial, we will learn about the Python zip() function with the help of examples.
+ ```Py
+ languages = ['Java', 'Python', 'JavaScript']
+versions = [14, 3, 6]
+
+result = zip(languages, versions)
+print(list(result))
+
+# Output: [('Java', 14), ('Python', 3), ('JavaScript', 6)]
+```
+ 
+```Py
+ def stock_price(val_a, val_b):
+    return dict(zip(val_a, val_b))
+
+
+akcie = ["META", "GOOG", "AMZN", "NTFX", "AAPL"]
+cena = [100, 130, 160, 299, 120]
+print(stock_price(akcie,cena))
+print(stock_price(cena, akcie))
+
+"""
+RESULT
+{'META': 100, 'GOOG': 130, 'AMZN': 160, 'NTFX': 299, 'AAPL': 120}
+{100: 'META', 130: 'GOOG', 160: 'AMZN', 299: 'NTFX', 120: 'AAPL'}
+"""
+```
