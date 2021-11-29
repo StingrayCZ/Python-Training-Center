@@ -74,3 +74,19 @@ RESULT
 {100: 'META', 130: 'GOOG', 160: 'AMZN', 299: 'NTFX', 120: 'AAPL'}
 """
 ```
+
+```Py
+languages = ['Java', 'Python', 'JavaScript']
+versions = [14, 3, 6]
+
+result = zip(languages, versions)
+result_b = result
+
+a = list(result)
+print(type(a))
+print(a)
+b = dict(result_b)
+print(type(b))
+print(b)
+# Output: [('Java', 14), ('Python', 3), ('JavaScript', 6)]
+```
