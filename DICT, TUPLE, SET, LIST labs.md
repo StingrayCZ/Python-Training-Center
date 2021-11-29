@@ -47,7 +47,7 @@ print(b)
 ```
 
  ## Python ZIP
- In this tutorial, we will learn about the Python zip() function with the help of examples.
+The zip() function takes iterables (can be zero or more), aggregates them in a tuple, and returns it.
  ```Py
  languages = ['Java', 'Python', 'JavaScript']
 versions = [14, 3, 6]
