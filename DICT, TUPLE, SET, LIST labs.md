@@ -75,6 +75,7 @@ RESULT
 """
 ```
 
+Zajímavost, po listu je slovnik prazcný
 ```Py
 languages = ['Java', 'Python', 'JavaScript']
 versions = [14, 3, 6]
