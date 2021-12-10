@@ -82,3 +82,7 @@ print(txt1)
 print(txt2)
 print(txt3)
 ```
+```Py
+#Simplified
+print(f"Value is {num:.1f}")
+```
