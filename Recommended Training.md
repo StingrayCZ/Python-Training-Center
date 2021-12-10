@@ -86,3 +86,12 @@ print(txt3)
 #Simplified
 print(f"Value is {num:.1f}")
 ```
+
+```Py
+# Args and kwargs
+def student_info(*args, **kwargs):
+    print(args)
+    print(kwargs)
+
+student_info("Math", "Art", name="John", age=22)
+```
