@@ -3,6 +3,7 @@
 https://realpython.com/primer-on-python-decorators/ </p>
 https://adventofcode.com/2021/day/2
 
+```Py
 def load_lines(file_name: str) -> list[str]:
     with open(file_name, "r") as file:
         commands = file.readlines()
@@ -20,3 +21,4 @@ def load_lines_v3(file_name: str) -> list[str]:
         return [line.rstrip("\n") for line in file.readlines()]
     
 print(load_lines_v3("day2.txt"))
+```
