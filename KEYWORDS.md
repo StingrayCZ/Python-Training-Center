@@ -41,3 +41,24 @@ def TEST():
 
 print(TEST())  # Vysledek je 3
 ```
+
+## Continue
+The continue keyword is used to end the current iteration in a for loop (or a while loop), and continues to the next iteration.
+
+```Py
+for i in range(9):
+  if i == 3:
+    continue
+  print(i)
+
+# 0, 1, 2, 4, 5, 6, 7, 8   vynechana 3
+```
+
+```Py
+for i in range(9):
+  if i == 3 or i == 5:
+    continue
+  print(i)
+
+# 0, 1, 2, 4, 6, 7, 8   vynechana 3 a 5
+```
