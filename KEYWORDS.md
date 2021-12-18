@@ -27,3 +27,17 @@ def test_search():
 
 test_search()
 ```
+
+## Break
+
+```Py
+def TEST():
+    for i in range(59):
+        if i >= 3:
+            break
+        print(f"iteraceke {i}")
+    print(i)
+
+
+print(TEST())  # Vysledek je 3
+```
