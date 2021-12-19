@@ -62,3 +62,18 @@ for i in range(9):
 
 # 0, 1, 2, 4, 6, 7, 8   vynechana 3 a 5
 ```
+
+## Exceptions (Try, Excepy, Finally, Raise)
+The finally block will always be executed, no matter if the try block raises an error or not:
+```Py
+x = 5
+try:
+  x > 3
+except:
+  print("Something went wrong")
+else:
+  print("Nothing went wrong")
+finally:
+  print("The try...except block is finished")
+
+```
