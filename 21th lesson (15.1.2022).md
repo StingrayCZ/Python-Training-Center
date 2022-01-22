@@ -1,4 +1,4 @@
-# 21th lesson (15.1.2022)
+# 21st lesson (15.1.2022)
 
 ```Py
 # import this
