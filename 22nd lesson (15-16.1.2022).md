@@ -1,4 +1,4 @@
-# 22nd lesson (22.1.2022)
+# 22nd lesson (15-16.1.2022)
 
 ```Py
 import random
