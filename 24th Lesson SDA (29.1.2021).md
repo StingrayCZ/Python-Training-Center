@@ -67,3 +67,24 @@ SELECT * FROM Customers
 WHERE Country IN ('France', 'Germany') AND City NOT in('Paris', 'Berlin')
 ORDER BY ContactName ASC;
 ```
+
+```sql
+-- 1) Najděte nejlevnější položku
+SELECT MIN(Price) AS "Nejmensi cena"
+FROM Products;
+
+--2) Najděte top 10 nejdražsích položek
+SELECT * FROM Products
+ORDER BY PRICE DESC
+Limit 10;
+
+-- 3) vypočítejte průměrnou cenu položek
+SELECT AVG(Price) AS Prumerna_Cena FROM Products;
+
+--4) kolik je položek s CategoryID 4
+Select COUNT(Unit) AS PolozkyID4 FROM Products
+WHERE CategoryID = 4
+
+--5) kolik je položek s CategoryID 4
+Select COUNT(DISTINC(ProductName)) AS UniquwItems FROM Products;
+```
