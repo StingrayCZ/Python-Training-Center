@@ -8,3 +8,13 @@
 5) unit - 10 boxes x 20 bags - VARCHAR(2)
 6) date - 1996-07-04 DATE
 ```
+
+```sql
+CREATE TABLE `countries` (
+ `country` varchar(25) NOT NULL,
+ `region` varchar(25) NOT NULL,
+ `populace` int(12) DEFAULT NULL,
+ `area` int(12) DEFAULT NULL,
+ `literacy` float(2) DEFAULT NULL
+)
+```
