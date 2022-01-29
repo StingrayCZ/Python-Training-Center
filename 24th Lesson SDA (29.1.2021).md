@@ -18,3 +18,30 @@ CREATE TABLE `countries` (
  `literacy` float(2) DEFAULT NULL
 )
 ```
+
+```sql
+Add 1
+SELECT DISTINCT Country FROM Customers;
+
+Add 2
+SELECT * FROM Customers
+WHERE Country NOT IN ('Germany', 'Mexico')
+
+SELECT * FROM Customers
+WHERE Country != 'Germany' AND Country != 'Mexico'
+
+Add 3
+SELECT CustomerID ContactName, Address FROM Customers
+WHERE CustomerID >= 10 AND CustomerID <= 30
+
+SELECT CustomerID ContactName, Address FROM Customers
+WHERE CustomerID BETWEEN 10 and 30;
+
+Add 4 ??
+SELECT * FROM Customers
+WHERE ContactName LIKE 'Maria%';
+
+Add 5
+SELECT * FROM Customers
+WHERE City IN('Berlin', 'London', 'Paris', 'Madrid')
+```
