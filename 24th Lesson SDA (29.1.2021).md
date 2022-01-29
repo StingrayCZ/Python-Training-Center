@@ -45,3 +45,25 @@ Add 5
 SELECT * FROM Customers
 WHERE City IN('Berlin', 'London', 'Paris', 'Madrid')
 ```
+
+```sql
+SELECT * FROM Customers
+WHERE Country = 'UK' OR City IN ('Nantes', 'Lille')
+
+SELECT * FROM Customers
+WHERE Country IS 'UK' OR City IS 'Nantes' OR City IS 'Lille';
+
+SELECT * FROM Customers
+WHERE (Country = 'Mexico' AND CustomerID < 21) OR CustomerID > 80
+
+SELECT * FROM Customers
+WHERE (CustomerID BETWEEN 1 AND 20 AND Country = 'Mexico') OR CustomerID > 80
+
+
+SELECT * FROM Customers
+ORDER BY Country, City DESC
+
+SELECT * FROM Customers
+WHERE Country IN ('France', 'Germany') AND City NOT in('Paris', 'Berlin')
+ORDER BY ContactName ASC;
+```
