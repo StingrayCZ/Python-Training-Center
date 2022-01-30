@@ -20,6 +20,13 @@ CREATE TABLE `countries` (
 ```
 
 ```sql
+-- pridavani udaju do vice radku
+INSERT INTO countries
+VALUES('Francie', 'Evropa', 70000000, 16620, 90),
+('Nemecko', 'Evropa', 82000000, 18470, 95)
+```
+
+```sql
 Add 1
 SELECT DISTINCT Country FROM Customers;
 
