@@ -10,3 +10,7 @@ BLOB              -- Binary Large Object, Store large data
 DATE              -- YYYY-MM-DD
 TIMESTAMP         -- YYYY-MM-DD HH:MM:SS
 ```
+
+
+## MySQL Password
+PythonSDA#22
