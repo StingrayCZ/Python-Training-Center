@@ -14,3 +14,4 @@ TIMESTAMP         -- YYYY-MM-DD HH:MM:SS
 
 ## MySQL Password
 PythonSDA#22
+Windows Service Name: MySQL80
