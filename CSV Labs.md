@@ -20,3 +20,16 @@ with open('names.csv', 'r') as csv_file:
     #     print(line)  # vytiskne celou radu
     #     # print(line[2])   # vytiskne jen email
 ```
+
+```py
+import csv
+
+with open('names.csv', 'r') as csv_file:
+    # csv_reader = csv.reader(csv_file, delimiter='\t')
+    # csv_reader = csv.reader(csv_file)
+    csv_reader = csv.DictReader(csv_file)
+
+    for line in csv_reader:
+        # print(line)
+        print(line['email'])
+```
