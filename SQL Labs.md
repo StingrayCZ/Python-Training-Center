@@ -25,3 +25,25 @@ CREATE TABLE student (
 );
 
 ```
+## Creating a table
+
+```sql
+CREATE TABLE student (
+    student_id INT,   -- definice sloupce + dat. typu
+    name VARCHAR(20),             -- 20 pozic
+    major VARCHAR(20),
+    PRIMARY KEY(student_id)
+);
+
+DESCRIBE student;
+
+DROP TABLE student;
+
+
+ALTER TABLE student ADD gpa DECIMAL(3, 1);
+-- pridani dalsiho sloupce
+-- ADD add extra table onto the table
+
+ALTER TABLE student DROP COLUMN gpa;  -- deleting specific column
+
+```
