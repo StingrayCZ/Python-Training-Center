@@ -15,3 +15,13 @@ TIMESTAMP         -- YYYY-MM-DD HH:MM:SS
 ## MySQL Password
 PythonSDA#22
 Windows Service Name: MySQL80
+
+
+```sql
+CREATE TABLE student (
+    student_id INT PRIMARY KEY,   -- definice sloupce + dat. typu
+    name VARCHAR(20),             -- 20 pozic
+    major VARCHAR(20)
+);
+
+```
