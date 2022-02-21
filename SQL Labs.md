@@ -47,3 +47,26 @@ ALTER TABLE student ADD gpa DECIMAL(3, 1);
 ALTER TABLE student DROP COLUMN gpa;  -- deleting specific column
 
 ```
+
+## Constraints
+
+• UNIQUE - nesmi se opakovat (duplicita)
+• NOT NULL - nesmi byt prazdne
+• DEFAULT 'value'
+• Primary key je vzdy UNIQUE a NOT NULL
+
+```SQL
+CREATE TABLE student (
+    student_id INT,   -- definice sloupce + dat. typu
+    name VARCHAR(20),             -- 20 pozic
+    major VARCHAR(20)DEFAULT 'undecided',          -- defaultni honota
+    PRIMARY KEY(student_id)
+);
+
+
+SELECT * FROM student;
+
+INSERT INTO student(student_id, name) VALUES(1, 'Jack');
+
+
+```
