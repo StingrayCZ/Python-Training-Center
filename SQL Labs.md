@@ -122,6 +122,7 @@ WHERE major = 'Computer Science';
 ```
     
 ```sql
+-- zmena hodnoty major u pozice 2
 UPDATE student
 SET major = 'Plumber'
 WHERE student_id = 2;
