@@ -120,3 +120,9 @@ UPDATE student
 SET major = 'ITC science'
 WHERE major = 'Computer Science';
 ```
+    
+```sql
+UPDATE student
+SET major = 'Plumber'
+WHERE student_id = 2;
+```
