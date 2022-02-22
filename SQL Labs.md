@@ -176,3 +176,10 @@ FROM student;
 SELECT student.name, student.major
 FROM student;
 ```
+
+-- Order
+SELECT student.name, student.major
+FROM student
+ORDER BY name DESC;
+    
+```
