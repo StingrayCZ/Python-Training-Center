@@ -106,3 +106,6 @@ WHERE major = 'Biology';
 -- >= grater than or equal
 -- <= less than or equal
 ```
+
+<p float="left">
+  <img src="TabBefore.PNG" width="900" />
