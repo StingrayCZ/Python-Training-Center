@@ -133,3 +133,9 @@ UPDATE student
 SET major = 'Biochemistry'
 WHERE major = 'Plumber' OR major = 'undecided'; 
 ```
+
+```sql
+UPDATE student
+SET name = 'Tom', major = 'Biochemistry'
+WHERE student_id = 1;
+```
