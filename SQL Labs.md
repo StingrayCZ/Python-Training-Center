@@ -160,3 +160,19 @@ WHERE name = 'Tommy' AND major = "undecided"    -- dve podminky
 ```sql
 DELETE FROM student; -- delete all rows
 ```
+
+## Basic Queries (getting data from databases)
+    
+```sql
+-- selekce veskereho obsahu
+SELECT *
+FROM student;
+    
+-- sloupec name
+SELECT name
+FROM student;
+
+-- alternativni zapis
+SELECT student.name, student.major
+FROM student;
+```
