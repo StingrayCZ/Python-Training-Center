@@ -110,6 +110,9 @@ WHERE major = 'Biology';
 <p float="left">
   <img src="Photos/TabBefore.PNG" width="300" />
     
+<p float="left">
+  <img src="Photos/TabAfter.PNG" width="300" />
+    
 Zmena hodnoty obsahu urcite hodnoty v tabulce
 
 ```sql
