@@ -190,5 +190,19 @@ ORDER BY name DESC;
 SELECT *
 FROM student
 ORDER BY major, student_id;
+   
+-- Pouze dva vysledky
+SELECT *
+FROM student
+LIMIT 2;
+
+-- Comparison statements
+-- <, >, <=, >=, =, <>(not equal to), AND, OR
     
+-- Vyhledavani specifickeho vyrazu    
+SELECT *
+FROM student
+WHERE name IN ('MIke', 'Kate')
 ```
+    
+## Company Databases Intro
