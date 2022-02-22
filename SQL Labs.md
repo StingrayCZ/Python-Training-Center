@@ -83,5 +83,17 @@ CREATE TABLE student (
 ## Update & Delete
 
 ```sql
-f
+SELECT * FROM student;
+
+UPDATE student
+SET major = 'Bio'
+WHERE major = 'Biology';
+
+-- Other Comparsion ops:
+-- = eqals
+-- <> not equals
+-- > greater than
+-- < less than
+-- >= grater than or equal
+-- <= less than or equal
 ```
