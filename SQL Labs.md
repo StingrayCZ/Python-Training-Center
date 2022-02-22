@@ -175,11 +175,20 @@ FROM student;
 -- alternativni zapis
 SELECT student.name, student.major
 FROM student;
-```
 
 -- Order
 SELECT student.name, student.major
 FROM student
+ORDER BY name;
+
+-- Order Descending
+SELECT student.name, student.major
+FROM student
 ORDER BY name DESC;
+
+-- Kaskadove řazení, prvne seradi dle major, pote podle student_id
+SELECT *
+FROM student
+ORDER BY major, student_id;
     
 ```
