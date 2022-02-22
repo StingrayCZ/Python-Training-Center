@@ -55,7 +55,7 @@ ALTER TABLE student DROP COLUMN gpa;  -- deleting specific column
 • DEFAULT 'value'
 • Primary key je vzdy UNIQUE a NOT NULL
 
-```SQL
+```sql
 CREATE TABLE student (
     student_id INT,   -- definice sloupce + dat. typu
     name VARCHAR(20),             -- 20 pozic
@@ -68,5 +68,20 @@ SELECT * FROM student;
 
 INSERT INTO student(student_id, name) VALUES(1, 'Jack');
 
+```
+Automaticky inkrement
+
+```sql
+CREATE TABLE student (
+    student_id INT AUTO_INCREMENT,   -- automaticke pridavani ID
+    name VARCHAR(20),             -- 20 pozic
+    major VARCHAR(20)DEFAULT 'undecided',          -- defaultnonota
+    PRIMARY KEY(student_id)
+);
+```
+
+## Update & Delete
+
+```sql
 
 ```
