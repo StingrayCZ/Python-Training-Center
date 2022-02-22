@@ -151,3 +151,12 @@ SET major = 'undecided'
 DELETE FROM student
 WHERE student_id = 4;
 ```
+    
+```sql
+DELETE FROM student
+WHERE name = 'Tommy' AND major = "undecided"    -- dve podminky
+```
+    
+```sql
+DELETE FROM student; -- delete all rows
+```
