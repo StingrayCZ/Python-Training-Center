@@ -83,6 +83,15 @@ CREATE TABLE student (
 ## Update & Delete
 
 ```sql
+-- Zaklad:
+INSERT INTO student(student_id, name) VALUES(1, 'Jack');
+INSERT INTO student VALUES(2, 'Kate', 'Sociology');
+INSERT INTO student VALUES(3, NULL, 'Chemistry');
+INSERT INTO student VALUES(4, 'Jack', 'BB');
+INSERT INTO student VALUES(5, 'Mike', 'Computer science');
+```
+
+```sql
 SELECT * FROM student;
 
 UPDATE student
