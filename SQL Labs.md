@@ -109,3 +109,11 @@ WHERE major = 'Biology';
 
 <p float="left">
   <img src="Photos/TabBefore.PNG" width="300" />
+    
+Zmena hodnoty obsahu urcite hodnoty v tabulce
+
+```sql
+UPDATE student
+SET major = 'ITC science'
+WHERE major = 'Computer Science';
+```
