@@ -139,3 +139,9 @@ UPDATE student
 SET name = 'Tom', major = 'Biochemistry'
 WHERE student_id = 1;
 ```
+
+```sql
+-- zmeni vsechny hodnoty ve sloupci
+UPDATE student
+SET major = 'undecided'
+```
