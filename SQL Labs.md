@@ -145,3 +145,9 @@ WHERE student_id = 1;
 UPDATE student
 SET major = 'undecided'
 ```
+
+```sql
+-- smazani urciteho radku
+DELETE FROM student
+WHERE student_id = 4;
+```
