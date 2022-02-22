@@ -108,4 +108,4 @@ WHERE major = 'Biology';
 ```
 
 <p float="left">
-  <img src="Photos/TabBefore.PNG" width="900" />
+  <img src="Photos/TabBefore.PNG" width="300" />
