@@ -27,6 +27,7 @@ body {
     border-radius: 3px;
 }
 
+/*Zkuste dat nejaky prvku order a sledujte na jakem miste se umisti*/
 
 .container {
     display: flex;
@@ -34,6 +35,11 @@ body {
     /*Don't change code above*/
 }
 
-.item {
-    flex-grow: 1;
+/*Totot roztahuje prvky*/
+/*.item {*/
+/*    flex-grow: 1;*/
+/*}*/
+
+item-3 {
+    order: 1;
 }

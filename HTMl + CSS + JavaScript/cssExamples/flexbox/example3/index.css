@@ -29,6 +29,8 @@ body {
 
 
 .container {
+    /*display: flex-wrap;*/
+    /*Zkuste flex-wrap pro row i column*/
     display: flex;
     /*Don't change code above*/
 }

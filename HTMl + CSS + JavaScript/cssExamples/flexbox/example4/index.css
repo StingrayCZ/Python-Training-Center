@@ -24,7 +24,12 @@ body {
     border-radius: 3px;
 }
 
+/*Zkuste ruzne hodnoty justify-content*/
 .container {
     display: flex;
     flex-wrap: wrap;
+}
+
+item-1{
+    margin-right: auto;
 }

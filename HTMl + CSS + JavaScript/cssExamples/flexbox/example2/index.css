@@ -29,4 +29,7 @@ body {
 
 .container {
     display: flex;
+
+    /*Flebox 2*/
+    flex-direction: row-reverse;
 }

@@ -11,13 +11,27 @@ body {
     padding-right: 5%;
 }
 
+/* tenhle container bude flex container*/
+
+/*.container {*/
+/*    padding: 10px;*/
+/*    background: #fff;*/
+/*    border-radius: 5px;*/
+/*    margin: 45px auto;*/
+/*    box-shadow: 0 1.5px 0 0 rgba(0, 0, 0, 0.1);*/
+/*}*/
+
 .container {
-    padding: 10px;
-    background: #fff;
-    border-radius: 5px;
-    margin: 45px auto;
-    box-shadow: 0 1.5px 0 0 rgba(0, 0, 0, 0.1);
+    /*Vytvorte flex container*/
+    /*display: flex;*/
+    display: inline-flex;
+
+    /*Dejte mu vysku 300px*/
+    height: 300;
+
+    /*Zkuste inline-flex*/
 }
+
 
 .item {
     color: #fff;
