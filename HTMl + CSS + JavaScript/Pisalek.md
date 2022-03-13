@@ -1,0 +1,1 @@
+# Test pridani pisalkaThis is test of my writing as preparation to RedHat job interview
