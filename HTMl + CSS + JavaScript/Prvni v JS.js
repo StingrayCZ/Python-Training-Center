@@ -1,0 +1,1 @@
+// console.log(name);var name = "Tomas";console.log(name);var age = 20;console.log(somethingCool);if (age < 20) {    // Do something    var somethingCool = "wow";}let name = "Tomas";let name = "Pepa";console.log(somethingCool, "xxx");if (age > 20) {    }

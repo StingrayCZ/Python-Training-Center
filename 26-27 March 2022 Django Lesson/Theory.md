@@ -1,0 +1,1 @@
+# BackEnd Technologies ### #Django #BackEnd #Flask### Install DJango```pythonpython -m pip install djangopip freeze```Založení projektu```pythondjango-admin startproject hollymovies```
