@@ -22,6 +22,7 @@ print(test_number)
 
 # print(len(test_number))
 
+
 for _ in range(len(test_number)):
     if int(_)%2 == 0:
 
