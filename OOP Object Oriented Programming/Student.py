@@ -6,4 +6,8 @@ class Student:
         self.gpa = gpa
         self.is_on_probation = is_on_probation
 
-print("Hello")
+    def on_honor_roll(self):
+        if self.gpa > 3.5:
+            return True
+        else:
+            return False

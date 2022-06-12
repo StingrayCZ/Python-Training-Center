@@ -1,7 +1,14 @@
 import math
 
+#
+# a = input("npais decadi\n")
+#
+# print(bin(int(a)))
+#
+# # TODO podivat se
 
-bin_number = []
+
+dec_number = []
 TEST = True
 i = 1
 while TEST:
@@ -18,13 +25,17 @@ while TEST:
             TEST = False
 
 
-print(test_number)
+# print(test_number)
+
+exponent = len(test_number)
+for _ in test_number:
+    dec_num =
 
 # print(len(test_number))
 
 
-for _ in range(len(test_number)):
-    if int(_)%2 == 0:
+# for _ in range(len(test_number)):
+
 
 
 

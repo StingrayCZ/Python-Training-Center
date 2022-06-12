@@ -60,3 +60,62 @@ run_test(questions)
 ```
 
 ## Lesson C - Object Function
+```Py
+class Student:
+
+    def __init__(self, name, major, gpa, is_on_probation):
+        self.name = name
+        self.major = major
+        self.gpa = gpa
+        self.is_on_probation = is_on_probation
+
+    def on_honor_roll(self):
+        if self.gpa > 3.5:
+            return True
+        else:
+            return False
+```
+
+## Lesson D - Inheritance
+```Py
+# app.py
+from Chef import Chef
+
+MyChef = Chef()
+MyChef.make_chicken()
+MyChef.make_special_dish()
+```
+
+```Py
+# Chef.py
+class Chef:
+
+    def make_chicken(self):
+        print("The chef makes a chicken")
+
+    def make_salad(self):
+        print("The chef makes a salad")
+
+    def make_special_dish(self):
+        print("The chef makes bbq ribs")
+```
+
+```Py
+# ChineseChef.py
+from Chef import Chef
+
+class ChineseChef(Chef):   # inherit functions from Chef
+
+    # def make_chicken(self):
+    #     print("The chef makes a chicken")
+    #
+    # def make_salad(self):
+    #     print("The chef makes a salad")
+
+    def make_special_dish(self):
+        print("The chef makes orange chicken")
+
+    def make_fried_rice(self):
+        print("The chef makes fried rice")
+
+```
