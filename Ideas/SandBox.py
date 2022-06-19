@@ -1,12 +1,20 @@
-try:
-    number = int(input("Enter a number: "))
-    print(number)
+import math
 
-except:
-    print("invalid input")
+# @Aplikace_prodf
+# def test():
+#     pass
 
-else:
-  print("Nothing went wrong")
+# for _ in range(len(dir(math))):
+#     print(dir(math)[_])
 
-finally:
-  print("The 'try except' is finished")
+
+def make_pretty(func):
+    def inner():
+        print("I got decorated")
+        func()
+    return inner
+
+
+@make_pretty
+def ordinary():
+    print("I am ordinary")
