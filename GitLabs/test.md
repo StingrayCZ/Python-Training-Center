@@ -1,11 +1,11 @@
 ### [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Hi+there+👋)](https://git.io/typing-svg)
 
-* 👋 My name is Masha. I'm from Belarus 
+* 👋 My name is Jarda. I'm from the Czech Republic 🇨🇿
 * 👨🏻‍💻 Computer Science student in the Higher School of Economics in Saint-Petersburg, Russia.
 * :computer: Ex-STEP intern at Google
-* 📫 How to reach me: `mariachizhova17@gmail.com` or `@machizhova` in Telegram
+* 📫 How to reach me: `jaromirbaca88@gmail.com`
 
-![Snake animation](https://github.com/MariaChizhova/MariaChizhova/blob/output/github-snake.svg)
+![Snake animation](https://github.com/StingrayCZ/StingrayCZ/blob/output/github-snake.svg)
 
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MariaChizhova&theme=monokai)
 ![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=MariaChizhova&theme=monokai)
