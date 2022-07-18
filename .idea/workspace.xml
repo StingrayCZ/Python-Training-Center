@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33e70ff0-d399-4f0c-9405-a93677f087eb" name="Changes" comment="Commit ze 19.6.2022" />
+    <list default="true" id="33e70ff0-d399-4f0c-9405-a93677f087eb" name="Changes" comment="Commit ze 19.6.2022">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitLabs/Git SSH.md" beforeDir="false" afterPath="$PROJECT_DIR$/GitLabs/Git SSH.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -199,7 +202,7 @@
       <workItem from="1654897936246" duration="3312000" />
       <workItem from="1655020699433" duration="16968000" />
       <workItem from="1655625797033" duration="887000" />
-      <workItem from="1655626723189" duration="1740000" />
+      <workItem from="1655626723189" duration="9721000" />
     </task>
     <task id="LOCAL-00001" summary="Zmena k 30APR2022">
       <created>1651302613360</created>
