@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33e70ff0-d399-4f0c-9405-a93677f087eb" name="Changes" comment="Commit ze 19.6.2022">
+    <list default="true" id="33e70ff0-d399-4f0c-9405-a93677f087eb" name="Changes" comment="Commit ze 18.7.2022 NEW">
+      <change afterPath="$PROJECT_DIR$/GitLabs/Git SSH Summary.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GitLabs/Git SSH.md" beforeDir="false" afterPath="$PROJECT_DIR$/GitLabs/Git SSH.md" afterDir="false" />
     </list>
@@ -202,7 +203,11 @@
       <workItem from="1654897936246" duration="3312000" />
       <workItem from="1655020699433" duration="16968000" />
       <workItem from="1655625797033" duration="887000" />
-      <workItem from="1655626723189" duration="9721000" />
+      <workItem from="1655626723189" duration="9977000" />
+      <workItem from="1661862905190" duration="15337000" />
+      <workItem from="1662410404636" duration="518000" />
+      <workItem from="1662410945818" duration="612000" />
+      <workItem from="1663686149987" duration="906000" />
     </task>
     <task id="LOCAL-00001" summary="Zmena k 30APR2022">
       <created>1651302613360</created>
@@ -260,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655627157723</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Commit ze 18.7.2022 NEW">
+      <created>1658119875025</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658119875025</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,27 +294,28 @@
     <MESSAGE value="Rozpracovani aplikace na prevody mezi soustavami" />
     <MESSAGE value="Html, opakovani pythonu" />
     <MESSAGE value="Commit ze 19.6.2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit ze 19.6.2022" />
+    <MESSAGE value="Commit ze 18.7.2022 NEW" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit ze 18.7.2022 NEW" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python_Training_Center$ConverterApps.coverage" NAME="ConverterApps Coverage Results" MODIFIED="1653864554361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ideas" />
-    <SUITE FILE_PATH="coverage/Python_Training_Center$Student.coverage" NAME="Student Coverage Results" MODIFIED="1651003753825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP Object Oriented Programming" />
+    <SUITE FILE_PATH="coverage/Python_Training_Center$Training_Strings.coverage" NAME="Training Strings Coverage Results" MODIFIED="1654037747665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ideas" />
     <SUITE FILE_PATH="coverage/Python_Training_Center$SuperTest.coverage" NAME="SuperTest Coverage Results" MODIFIED="1651010081100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Training_Center$TT.coverage" NAME="TT Coverage Results" MODIFIED="1651010257725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP Object Oriented Programming" />
-    <SUITE FILE_PATH="coverage/Python_Training_Center$Training_Strings.coverage" NAME="Training Strings Coverage Results" MODIFIED="1654037747665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ideas" />
     <SUITE FILE_PATH="coverage/Python_Training_Center$scrap.coverage" NAME="scrap Coverage Results" MODIFIED="1651008305756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python TEMP" />
-    <SUITE FILE_PATH="coverage/Python_Training_Center$Student__1_.coverage" NAME="Student (1) Coverage Results" MODIFIED="1651009998107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python TEMP" />
-    <SUITE FILE_PATH="coverage/Python_Training_Center$PP.coverage" NAME="PP Coverage Results" MODIFIED="1651009759669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python TEMP" />
-    <SUITE FILE_PATH="coverage/Python_Training_Center$Faker.coverage" NAME="Faker Coverage Results" MODIFIED="1653208642996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_Training_Center$Args_Kwargs.coverage" NAME="Args&amp;Kwargs Coverage Results" MODIFIED="1654295895878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ideas" />
-    <SUITE FILE_PATH="coverage/Python_Training_Center$Datetime.coverage" NAME="Datetime Coverage Results" MODIFIED="1654378487461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ideas" />
-    <SUITE FILE_PATH="coverage/Python_Training_Center$SandBox.coverage" NAME="SandBox Coverage Results" MODIFIED="1655071765903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ideas" />
-    <SUITE FILE_PATH="coverage/Python_Training_Center$OOP_SandBox.coverage" NAME="OOP_SandBox Coverage Results" MODIFIED="1654637731212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP Object Oriented Programming" />
-    <SUITE FILE_PATH="coverage/Python_Training_Center$Chef.coverage" NAME="Chef Coverage Results" MODIFIED="1654638569487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP Object Oriented Programming" />
-    <SUITE FILE_PATH="coverage/Python_Training_Center$app.coverage" NAME="app Coverage Results" MODIFIED="1654899993104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP Object Oriented Programming" />
-    <SUITE FILE_PATH="coverage/Python_Training_Center$Import_training.coverage" NAME="Import training Coverage Results" MODIFIED="1654372733794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ideas" />
     <SUITE FILE_PATH="coverage/Python_Training_Center$Break_Continue.coverage" NAME="Break&amp;Continue Coverage Results" MODIFIED="1654374710263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ideas" />
-    <SUITE FILE_PATH="coverage/Python_Training_Center$Decorators.coverage" NAME="Decorators Coverage Results" MODIFIED="1655246256665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ideas" />
     <SUITE FILE_PATH="coverage/Python_Training_Center$25InterestingPyCodes.coverage" NAME="25InterestingPyCodes Coverage Results" MODIFIED="1654462200978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ideas" />
+    <SUITE FILE_PATH="coverage/Python_Training_Center$Faker.coverage" NAME="Faker Coverage Results" MODIFIED="1653208642996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Training_Center$app.coverage" NAME="app Coverage Results" MODIFIED="1654899993104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP Object Oriented Programming" />
+    <SUITE FILE_PATH="coverage/Python_Training_Center$Datetime.coverage" NAME="Datetime Coverage Results" MODIFIED="1654378487461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ideas" />
+    <SUITE FILE_PATH="coverage/Python_Training_Center$Import_training.coverage" NAME="Import training Coverage Results" MODIFIED="1654372733794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ideas" />
+    <SUITE FILE_PATH="coverage/Python_Training_Center$OOP_SandBox.coverage" NAME="OOP_SandBox Coverage Results" MODIFIED="1654637731212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP Object Oriented Programming" />
+    <SUITE FILE_PATH="coverage/Python_Training_Center$Student__1_.coverage" NAME="Student (1) Coverage Results" MODIFIED="1651009998107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python TEMP" />
+    <SUITE FILE_PATH="coverage/Python_Training_Center$Args_Kwargs.coverage" NAME="Args&amp;Kwargs Coverage Results" MODIFIED="1654295895878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ideas" />
+    <SUITE FILE_PATH="coverage/Python_Training_Center$PP.coverage" NAME="PP Coverage Results" MODIFIED="1651009759669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python TEMP" />
+    <SUITE FILE_PATH="coverage/Python_Training_Center$ConverterApps.coverage" NAME="ConverterApps Coverage Results" MODIFIED="1653864554361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ideas" />
+    <SUITE FILE_PATH="coverage/Python_Training_Center$SandBox.coverage" NAME="SandBox Coverage Results" MODIFIED="1655071765903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ideas" />
+    <SUITE FILE_PATH="coverage/Python_Training_Center$Chef.coverage" NAME="Chef Coverage Results" MODIFIED="1654638569487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP Object Oriented Programming" />
+    <SUITE FILE_PATH="coverage/Python_Training_Center$Decorators.coverage" NAME="Decorators Coverage Results" MODIFIED="1655246256665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ideas" />
+    <SUITE FILE_PATH="coverage/Python_Training_Center$Student.coverage" NAME="Student Coverage Results" MODIFIED="1651003753825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP Object Oriented Programming" />
   </component>
 </project>

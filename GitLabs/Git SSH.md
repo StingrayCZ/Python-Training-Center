@@ -1,4 +1,4 @@
-# SSH
+cd G    # SSH
 
 ```
 ubuntu@UbuntuPC:~/PycharmProjects/Python-Training-Center$ cd ~/.ssh
