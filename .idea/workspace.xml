@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33e70ff0-d399-4f0c-9405-a93677f087eb" name="Changes" comment="Commit ze 18.7.2022 NEW">
-      <change afterPath="$PROJECT_DIR$/GitLabs/Git SSH Summary.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GitLabs/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GitLabs/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photos/GitHubKey.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GitLabs/Git SSH.md" beforeDir="false" afterPath="$PROJECT_DIR$/GitLabs/Git SSH.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitLabs/Git SSH Summary.md" beforeDir="false" afterPath="$PROJECT_DIR$/GitLabs/Git SSH Summary.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,18 +45,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;application.passwordSafe&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/ubuntu/PycharmProjects/Python-Training-Center/Photos",
+    "list.type.of.created.stylesheet": "CSS",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "application.passwordSafe"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Photos" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Python TEMP" />
       <recent name="$PROJECT_DIR$/OOP Object Oriented Programming" />
@@ -207,7 +213,7 @@
       <workItem from="1661862905190" duration="15337000" />
       <workItem from="1662410404636" duration="518000" />
       <workItem from="1662410945818" duration="612000" />
-      <workItem from="1663686149987" duration="906000" />
+      <workItem from="1663686149987" duration="5642000" />
     </task>
     <task id="LOCAL-00001" summary="Zmena k 30APR2022">
       <created>1651302613360</created>
