@@ -48,3 +48,9 @@ git remote add
 git remote add origin git@github:... .git
 git push --set-upstream origin master
 ```
+
+## Git Push Command
+
+```terminal
+git push -f origin branch
+```
